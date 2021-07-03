@@ -1,14 +1,14 @@
 import React from "react";
 import "./style.css";
-
 function Nav() {
   return (
     <section className="nav-background">
     <div className="container">
       <div className="row">
         <div className="col-6 col-sm-6 col-md-3 col-lg-3 offset-4 offset-sm-4 offset-md-0 offset-lg-0">
+        <img src="/images/nav/logo.png" className="d-inline-block" alt="" loading="lazy"/>
 
-          <a className="navbar-brand flex-sm-fill text-sm-center pt-2 pb-2" href="/">Atlantida</a>    
+          <a className="navbar-brand flex-sm-fill text-sm-center pt-2 pb-2" href="/">Top One</a>    
         </div>
       <div className="col-md-7 col-lg-6">
         <nav className="nav navbar nav-pills d-flex justify-content-center">
