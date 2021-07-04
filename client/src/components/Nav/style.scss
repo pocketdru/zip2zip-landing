@@ -7,3 +7,16 @@
 .nav-background .img {
     width: 100%;
 }
+
+.nav-background .navbar-brand {
+    background-color: #0d5195;
+}
+
+.nav-background .navbar-brand a {
+    @include Montserrat-title();
+    font-size: 24px;
+}
+
+.svg-inline--fa {
+    color: #ffffff;
+}
