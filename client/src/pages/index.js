@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav";
-// import Jumbotron from "../components/Jumbotron";
+import Jumbotron from "../components/Jumbotron";
 // import Footer from "../components/Footer";
 
 class Home extends Component {
@@ -8,7 +8,7 @@ class Home extends Component {
         return (
         <div>
             <Nav/>
-            {/* <Jumbotron/> */}
+            <Jumbotron/>
             {/* <Footer /> */}
         </div>
         ) 
