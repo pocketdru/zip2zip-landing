@@ -2,6 +2,8 @@
 
 .nav-background {
     background: transparent;
+    position: absolute;
+    width: 100%;
 }
 
 .nav-background .img {
@@ -19,4 +21,8 @@
 
 .svg-inline--fa {
     color: #ffffff;
+}
+
+.svg-inline--fa:hover {
+    color: #0d5195;
 }
