@@ -18,10 +18,10 @@ function Nav() {
         </div>
       <div className="col-md-9 col-lg-9">
         <nav className="nav navbar d-flex justify-content-end">
-          <a className="nav-link text-sm-center" target="_blank" href="https://www.linkedin.com/company/zip-2-zip">
+          <a className="nav-link text-sm-center mt-2 mb-3" target="_blank" href="https://www.linkedin.com/company/zip-2-zip">
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
-          <a className="nav-link text-sm-center" target="_blank" href="https://www.linkedin.com/company/zip-2-zip">
+          <a className="nav-link text-sm-center mt-2 mb-3" target="_blank" href="https://www.linkedin.com/company/zip-2-zip">
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
           </nav>

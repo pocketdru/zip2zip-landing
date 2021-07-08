@@ -7,7 +7,8 @@
   width: 100%; }
 
 .nav-background .navbar-brand {
-  background-color: #0d5195; }
+  background-color: #0d5195;
+  z-index: 15; }
 
 .nav-background .navbar-brand a {
   font-family: Montserrat;
