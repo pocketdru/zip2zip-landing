@@ -16,5 +16,8 @@
       background-color: #f9f8f4; }
       .jumbotron-carousel .nav .btn:hover a {
         color: #0d5195; }
+  .jumbotron-carousel .position-relative {
+    top: 50%;
+    left: 33%; }
 
 /*# sourceMappingURL=style.css.map */

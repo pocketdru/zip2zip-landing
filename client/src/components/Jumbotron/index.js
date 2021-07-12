@@ -1,6 +1,7 @@
 import React from "react";
+import ScriptTag from 'react-script-tag';
 import "./style.css";
-import background from "../../assets/images/jumbotron/1.jpeg"
+import background from "../../assets/images/jumbotron/3.jpeg"
 
 function Jumbotron() {
   return (
@@ -17,12 +18,13 @@ function Jumbotron() {
                     <li className="nav-link"><a href="/">Contact</a></li>
                     <li className="ml-2 p-3 btn"><a href="/">REQUEST A QUOTE</a></li>
                 </nav>
-            </div>
-            <div className="carousel-caption top-50">
+                <div className="position-relative">
                 <h1>
-                    Ground, Air or Sea
+                    Fancy text
                 </h1>
                 <p>WE DELIVER YOUR PACKAGE IN NO-TIME </p> 
+                <div><ScriptTag type="text/javascript" src="https://www.uship.com/widget/getquotewidget.js?widgetstyle=vertical&color=blue&category=4&subcategory=79&z1=&z2=&country2=US&country1=US&referid=284364&widgettype=quote_widget_1_0&siteid=1&showemailaddress=true" ></ScriptTag><a>uShip Car Transport</a></div>
+            </div>
             </div>
           </div>
       </div>
