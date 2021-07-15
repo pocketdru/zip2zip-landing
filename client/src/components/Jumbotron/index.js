@@ -9,7 +9,7 @@ function Jumbotron() {
       <div className="container-fluid p-0">
         <div className="col-md-12">
           <div className="jumbotron jumbotron-fluid p-0">
-            <img className="d-block w-100" src={background} alt="board"/>
+            {/* <img className="d-block w-100" src={background} alt="board"/> */}
             <div className="carousel-caption">
                 <nav className="nav navbar">
                     <li className="nav-link"><a href="/">Home</a></li>
