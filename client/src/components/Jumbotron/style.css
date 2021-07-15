@@ -1,0 +1,23 @@
+.jumbotron-carousel {
+  height: 500px; }
+  .jumbotron-carousel .carousel-caption {
+    top: 10%; }
+  .jumbotron-carousel .nav {
+    justify-content: flex-end; }
+    .jumbotron-carousel .nav .nav-link a, .jumbotron-carousel .nav .btn a {
+      font-family: Montserrat;
+      color: #f9f8f4;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 13px; }
+    .jumbotron-carousel .nav .btn {
+      background-color: #0d5195; }
+    .jumbotron-carousel .nav .btn:hover {
+      background-color: #f9f8f4; }
+      .jumbotron-carousel .nav .btn:hover a {
+        color: #0d5195; }
+  .jumbotron-carousel .position-relative {
+    top: 15%;
+    left: 33%; }
+
+/*# sourceMappingURL=style.css.map */

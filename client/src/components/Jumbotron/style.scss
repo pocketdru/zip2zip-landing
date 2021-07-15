@@ -1,0 +1,31 @@
+@import "../../main.scss";
+
+.jumbotron-carousel {
+    height: 500px;
+    .carousel-caption {
+        top: 10%;
+    }
+    .nav {
+        justify-content: flex-end;
+        .nav-link a, .btn a {
+            @include Montserrat-title();
+            font-size: 13px;
+        }
+
+        .btn {
+            background-color: #0d5195; 
+           }
+
+        .btn:hover {
+            background-color:#f9f8f4;
+            a {
+                color: #0d5195;
+            }
+        }
+    }
+
+    .position-relative {
+        top: 15%;
+        left: 33%;
+    }
+}
