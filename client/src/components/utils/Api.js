@@ -23,19 +23,19 @@
 //   }
 // };  
 
-var request = require('request');
-var options = {
-  'method': 'POST',
-  'url': 'https://api.shipengine.com/v1/addresses/validate',
-  'headers': {
-    'Host': 'api.shipengine.com',
-    'API-Key': 'TEST_WKICVdlwCQPVDQk5EDv2pZaTX8myOr62GOOeT7jxO1c',
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify([{"address_line1":"525 S Winchester Blvd","city_locality":"San Jose","state_province":"CA","postal_code":"95128","country_code":"US"}])
+// var request = require('request');
+// var options = {
+//   'method': 'POST',
+//   'url': 'https://api.shipengine.com/v1/addresses/validate',
+//   'headers': {
+//     'Host': 'api.shipengine.com',
+//     'API-Key': 'TEST_WKICVdlwCQPVDQk5EDv2pZaTX8myOr62GOOeT7jxO1c',
+//     'Content-Type': 'application/json'
+//   },
+//   body: JSON.stringify([{"address_line1":"525 S Winchester Blvd","city_locality":"San Jose","state_province":"CA","postal_code":"95128","country_code":"US"}])
 
-};
-request(options, function (error, response) { 
-  if (error) throw new Error(error);
-  console.log(response.body);
-});
+// };
+// request(options, function (error, response) { 
+//   if (error) throw new Error(error);
+//   console.log(response.body);
+// });
