@@ -9,10 +9,10 @@ module.exports = function(app) {
         })
     )
 
-    app.use(
-        proxy("/v1/rates", {
-            target: "https://api.shipengine.com",
-            changeOrigin: true
-        })
-    )
+    // app.use(
+    //     proxy("/v1/rates", {
+    //         target: "https://api.shipengine.com",
+    //         changeOrigin: true
+    //     })
+    // )
 }
