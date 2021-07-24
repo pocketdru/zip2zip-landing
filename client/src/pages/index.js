@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav";
 import Jumbotron from "../components/Jumbotron";
+import Email from "../components/Email";
 import Quote from "../components/Quote";
 // import Footer from "../components/Footer";
 
@@ -10,7 +11,8 @@ class Home extends Component {
         <div>
             <Nav/>
             <Jumbotron/>
-            <Quote/>
+            <Email />
+            {/* <Quote/> */}
             {/* <Footer /> */}
         </div>
         ) 
