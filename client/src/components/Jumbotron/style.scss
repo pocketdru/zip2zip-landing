@@ -1,10 +1,16 @@
 @import "../../main.scss";
 
 .jumbotron-carousel {
-    height: 500px;
-    background: url("../../assets/images/jumbotron/3.jpeg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../../assets/images/jumbotron/3.jpeg");
+    .jumbotron {
+        margin-bottom: 0;
+        background: none;
+    }
     .carousel-caption {
-        top: 10%;
+        position: inherit;
     }
     .nav {
         justify-content: flex-end;
@@ -24,9 +30,17 @@
             }
         }
     }
-
-    .position-relative {
-        top: 15%;
-        left: 33%;
+    .text-right {
+        text-transform: uppercase;
+        h1 {
+            @include Open-Sans-par();
+            font-size: 60px;  
+            margin-top: 8rem;
+        }
+        p {
+            margin-bottom: 8rem;
+            @include Montserrat-title();
+            font-size: 16px;
+        }
     }
 }
