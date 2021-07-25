@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 import Jumbotron from "../components/Jumbotron";
 import Contact from "../components/Contact";
 import Email from "../components/Email";
-import Quote from "../components/Quote";
+// import Quote from "../components/Quote";
 // import Footer from "../components/Footer";
 
 class Home extends Component {
