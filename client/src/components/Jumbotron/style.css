@@ -1,5 +1,6 @@
 .jumbotron-carousel {
-  height: 500px; }
+  height: 500px;
+  background: url("../../assets/images/jumbotron/3.jpeg"); }
   .jumbotron-carousel .carousel-caption {
     top: 10%; }
   .jumbotron-carousel .nav {
