@@ -1,7 +1,13 @@
 .jumbotron-carousel {
-  height: 500px; }
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("../../assets/images/jumbotron/3.jpeg"); }
+  .jumbotron-carousel .jumbotron {
+    margin-bottom: 0;
+    background: none; }
   .jumbotron-carousel .carousel-caption {
-    top: 10%; }
+    position: inherit; }
   .jumbotron-carousel .nav {
     justify-content: flex-end; }
     .jumbotron-carousel .nav .nav-link a, .jumbotron-carousel .nav .btn a {
@@ -16,8 +22,20 @@
       background-color: #f9f8f4; }
       .jumbotron-carousel .nav .btn:hover a {
         color: #0d5195; }
-  .jumbotron-carousel .position-relative {
-    top: 15%;
-    left: 33%; }
+  .jumbotron-carousel .text-right {
+    text-transform: uppercase; }
+    .jumbotron-carousel .text-right h1 {
+      font-family: "Open-Sans";
+      font-weight: 300;
+      color: #f9f8f4;
+      font-size: 60px;
+      margin-top: 8rem; }
+    .jumbotron-carousel .text-right p {
+      margin-bottom: 8rem;
+      font-family: Montserrat;
+      color: #f9f8f4;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */

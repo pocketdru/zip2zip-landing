@@ -4,3 +4,9 @@
     text-transform: uppercase;
     font-weight: 700;
 }
+
+@mixin Open-Sans-par {
+    font-family: "Open-Sans";
+    font-weight: 300;
+    color: #f9f8f4;
+}

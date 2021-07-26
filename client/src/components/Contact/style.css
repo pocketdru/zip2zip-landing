@@ -1,0 +1,23 @@
+.contact {
+  background-color: #181834; }
+  .contact .card .img-fluid {
+    padding-top: 2.25rem; }
+  .contact .card-body {
+    padding: 1.25rem 0rem; }
+  .contact .card, .contact .list-group, .contact .list-group-item {
+    background: inherit;
+    border: none; }
+  .contact .card-body .list-group {
+    font-size: 13px; }
+    .contact .card-body .list-group #header {
+      font-family: Montserrat;
+      color: #f9f8f4;
+      text-transform: uppercase;
+      font-weight: 700; }
+    .contact .card-body .list-group .list-group-item {
+      font-family: "Open-Sans";
+      font-weight: 300;
+      color: #f9f8f4;
+      font-weight: 400; }
+
+/*# sourceMappingURL=style.css.map */
