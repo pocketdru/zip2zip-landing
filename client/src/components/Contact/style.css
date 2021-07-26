@@ -1,5 +1,18 @@
+.contact-background {
+  background-color: #f8f8f8;
+  margin-top: -3rem; }
+
 .contact {
-  background-color: #181834; }
+  background: linear-gradient(-45deg, #1a2795, #373763, #181834, #03133d);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite; }
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
   .contact .card .img-fluid {
     padding-top: 2.25rem; }
   .contact .card-body {
