@@ -1,0 +1,25 @@
+@import "../../main.scss";
+
+.contact {
+    background-color: #181834;
+    .card .img-fluid {
+        padding-top: 2.25rem;
+    }
+    .card-body {
+        padding: 1.25rem 0rem;
+    }
+    .card, .list-group, .list-group-item{
+        background: inherit;
+        border: none;
+    }
+    .card-body .list-group {
+        font-size: 13px;
+        #header {
+        @include Montserrat-title();
+        }
+        .list-group-item {  
+            @include Open-Sans-par();
+            font-weight: 400;
+        }
+    }
+}
