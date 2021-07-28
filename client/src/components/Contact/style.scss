@@ -1,11 +1,11 @@
 @import "../../main.scss";
 
 .contact-background {
-    background-color: #f8f8f8;
-    // margin-top: -3rem;
+    background-color: transparent;
 }
 
 .contact {
+    margin-top: -3rem;
     background: linear-gradient(-45deg, #1a2795, #373763, #181834, #03133d);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;

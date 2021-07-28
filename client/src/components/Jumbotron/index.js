@@ -4,7 +4,7 @@ import "./style.css";
 
 function Jumbotron() {
   return (
-    <section className="jumbotron-carousel pb-5">
+    <section className="jumbotron-carousel">
       <div className="container">
         <div className="col-md-12">
           <div className="jumbotron pt-5 pl-0 pr-0 pb-0">
