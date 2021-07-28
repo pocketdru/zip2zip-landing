@@ -31,28 +31,21 @@
         border: none;
     }
     .card-body .list-group {
-        font-size: 13px;
         #header {
         @include Montserrat-title();
+        font-size: 13px;
         }
         .list-group-item {  
             @include Open-Sans-par();
             font-weight: 400;
+            padding: .75rem 0rem;
+            font-size: 11px;
         }
     }
+    .btn  {
+        background-color: #0d5195;
+        border-radius: 0;
+        @include Montserrat-title();
+        font-size: 13px;
+    }
 }
-
-// .contact::after {
-//     content: '';
-//     position: absolute;
-//     width: 1100%;
-//     height: 1100%;
-//     top: 12px;
-//     right: -413%;
-//     background: rgba(255,255,255,.8);
-//     transform-origin: 54% 0;
-//     transform: rotate(
-// 5deg
-// );
-//     z-index: -1;
-// }

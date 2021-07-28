@@ -12,10 +12,10 @@ function Contact () {
                     <div className="col-md-3">
                     <div className="card">
                             <div className="row">
-                                <div className="col-md-4">
+                                <div className="col-md-3">
                                     <img src={Hours} className="img-fluid rounded-start" alt="..."/>
                                 </div>
-                            <div className="col-md-8">
+                            <div className="col-md-9">
                                 <div className="card-body">
                                 <ul className="list-group">
                                     <li className="list-group-item" id="header">OPENING HOURS</li>
@@ -29,10 +29,10 @@ function Contact () {
                     <div className="col-md-3">
                         <div className="card">
                             <div className="row">
-                                <div className="col-md-4">
+                                <div className="col-md-3">
                                     <img src={Call} className="img-fluid rounded-start" alt="..."/>
                                 </div>
-                            <div className="col-md-8">
+                            <div className="col-md-9">
                                 <div className="card-body">
                                 <ul className="list-group">
                                     <li className="list-group-item" id="header">CALL US ANYTIME</li>
@@ -47,15 +47,15 @@ function Contact () {
                     <div className="col-md-3">
                     <div className="card">
                             <div className="row">
-                                <div className="col-md-4">
+                                <div className="col-md-3">
                                     <img src={Email} className="img-fluid rounded-start" alt="..."/>
                                 </div>
-                            <div className="col-md-8">
+                            <div className="col-md-9">
                                 <div className="card-body">
                                 <ul className="list-group">
                                     <li className="list-group-item" id="header">EMAIL US</li>
-                                    <li className="list-group-item">zip2zip.dispatch@gmail.com</li>
-                                    <li className="list-group-item">zip2zip.relocation@gmail.com</li>
+                                    <li className="list-group-item">toponetransportation@gmail.com</li>
+                                    <li className="list-group-item">toponetransportation@gmail.com</li>
                                 </ul>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ function Contact () {
                         </div>                    
                     </div>
                     <div className="col-md-3">
-                        <button type="button" className="btn">Primary</button>
+                        <button type="button" className="btn btn-block">Request a quote</button>
                     </div>
                 </div>
             </div>

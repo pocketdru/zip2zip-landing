@@ -20,17 +20,26 @@
   .contact .card, .contact .list-group, .contact .list-group-item {
     background: inherit;
     border: none; }
-  .contact .card-body .list-group {
+  .contact .card-body .list-group #header {
+    font-family: Montserrat;
+    color: #f9f8f4;
+    text-transform: uppercase;
+    font-weight: 700;
     font-size: 13px; }
-    .contact .card-body .list-group #header {
-      font-family: Montserrat;
-      color: #f9f8f4;
-      text-transform: uppercase;
-      font-weight: 700; }
-    .contact .card-body .list-group .list-group-item {
-      font-family: "Open-Sans";
-      font-weight: 300;
-      color: #f9f8f4;
-      font-weight: 400; }
+  .contact .card-body .list-group .list-group-item {
+    font-family: "Open-Sans";
+    font-weight: 300;
+    color: #f9f8f4;
+    font-weight: 400;
+    padding: .75rem 0rem;
+    font-size: 11px; }
+  .contact .btn {
+    background-color: #0d5195;
+    border-radius: 0;
+    font-family: Montserrat;
+    color: #f9f8f4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px; }
 
 /*# sourceMappingURL=style.css.map */
