@@ -62,8 +62,8 @@ function Contact () {
                             </div>
                         </div>                    
                     </div>
-                    <div className="col-md-3">
-                        <button type="button" className="btn btn-block">Request a quote</button>
+                    <div className="col-md-3 d-flex align-self-center">
+                        <button type="button" className="btn m-auto">Request a quote</button>
                     </div>
                 </div>
             </div>
