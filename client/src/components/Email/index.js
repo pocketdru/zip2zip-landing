@@ -16,17 +16,33 @@ export default function QuoteEmail() {
   }
 
   return (
-    <form className="contact-form" onSubmit={sendEmail}>
-      <input type="hidden" name="contact_number" />
-      <label>Your Name</label>
-      <input type="text" name="from_name" />
-      <label>Your Email</label>
-      <input type="text" name="from_email" />
-      <label>Your phone number (optional)</label>
-      <input type="tel" name="phone" />
-      <label>Year, model, make of the unit you are shipping. Please note all the modifications if you have some.</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <section className="email">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+        <form className="contact-form" onSubmit={sendEmail}>
+          <input type="hidden" name="contact_number"/>
+          <div className="form-group">     
+            <label>Your Name</label>
+            <input type="text" name="from_name" className="form-control"/>
+          </div>
+          <div className="form-group">
+            <label>Your Email</label>
+            <input type="text" name="from_email" className="form-control"/>
+          </div>
+          <div className="form-group">
+            <label>Your phone number (optional)</label>
+            <input type="tel" name="phone" className="form-control"/>
+          </div>
+          <div className="form-group">
+            <label>Year, model, make of the unit you are shipping. Please note all the modifications if you have some.</label>
+            <textarea name="message" />
+          </div>
+          <input type="submit" value="Send" className="btn"/>
+        </form>
+        </div>
+        </div>
+      </div>
+    </section>
   );
 }
