@@ -1,3 +1,12 @@
-
+.card-background {
+  background-color: #0d5195; }
+  .card-background .card {
+    background-color: inherit;
+    border: none; }
+    .card-background .card .card-title {
+      text-align: center; }
+    .card-background .card .btn {
+      margin: auto;
+      display: block; }
 
 /*# sourceMappingURL=style.css.map */

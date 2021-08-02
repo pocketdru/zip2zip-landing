@@ -9,11 +9,11 @@ function GalleryMini () {
         <section className="galleryMini">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-6">
-                        <div className="card border mb-3">
-                        <div className="card-body">
-                            <h5 className="card-title">Fleet Gallery</h5>
-                            <button className="btn card-text">View All</button>
+                    <div className="col-md-6 card-background">
+                        <div className="card mb-3 mt-5 mb-5">
+                        <div className="card-body mt-5">
+                            <h5 className="card-title mt-5 mb-5">Fleet Gallery</h5>
+                            <button className="btn card-text mb-5">View All</button>
                         </div>
                         </div>
                     </div>

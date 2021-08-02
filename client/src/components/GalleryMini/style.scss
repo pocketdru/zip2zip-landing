@@ -1,0 +1,14 @@
+.card-background {
+    background-color: #0d5195;
+    .card {
+        background-color: inherit;
+        border: none;
+        .card-title {
+            text-align: center;
+        }
+        .btn {
+            margin: auto;
+            display: block;
+        }
+    }
+}
