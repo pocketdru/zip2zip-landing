@@ -1,12 +1,34 @@
-.card-background {
+.galleryMini .card {
+  border: none; }
+.galleryMini .card-background {
   background-color: #0d5195; }
-  .card-background .card {
-    background-color: inherit;
-    border: none; }
-    .card-background .card .card-title {
+  .galleryMini .card-background .card {
+    background-color: inherit; }
+    .galleryMini .card-background .card .card-title {
+      font-family: Montserrat;
+      color: #f9f8f4;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 24px;
       text-align: center; }
-    .card-background .card .btn {
+    .galleryMini .card-background .card .btn {
+      font-family: Montserrat;
+      color: #f9f8f4;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 13px;
+      color: #000000;
       margin: auto;
-      display: block; }
+      display: block;
+      background-color: #f9f8f4;
+      border-radius: 0; }
+    .galleryMini .card-background .card .btn:hover {
+      color: #f9f8f4;
+      background-color: #000000; }
+.galleryMini .card-deck {
+  margin-left: -8em; }
+  .galleryMini .card-deck .card {
+    margin: 0em 1em;
+    border-radius: 0; }
 
 /*# sourceMappingURL=style.css.map */
