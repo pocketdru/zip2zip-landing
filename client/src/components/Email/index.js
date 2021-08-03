@@ -17,14 +17,14 @@ export default function QuoteEmail() {
   }
 
   return (
-    <section className="email pt-5 pb-5">
-      <div className="container">
+    <section className="email">
+      <div className="container pt-5 pb-5">
         <div className="row">
           <div className="col-md-12">
             <h5 className="card-title mt-5 mb-5">REQUEST A QUICK QUOTE</h5>
           </div>
           <div className="col-md-12">
-        <form className="contact-form needs-validation" onSubmit={sendEmail}>
+        <form className="contact-form needs-validation pb-4" onSubmit={sendEmail}>
           <input type="hidden" name="contact_number"/>
           <div className="form-row">
           <div className="form-group col-md-4">     
@@ -44,7 +44,7 @@ export default function QuoteEmail() {
             <label>Year, model, make of the unit you are shipping. Please note all the modifications if you have some.</label>
             <textarea name="message" required/>
           </div>
-          <input type="submit" value="SEND MESSAGE" className="btn m-auto pl-4 pr-4 pt-3 pb-3"/>
+          <input type="submit" value="SEND MESSAGE" className="btn mx-auto pl-4 pr-4 pt-3 pb-3"/>
         </form>
         </div>
         </div>
