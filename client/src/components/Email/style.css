@@ -11,6 +11,46 @@
       font-size: 24px;
       text-align: center; }
     .email .container .contact-form .form-group {
-      padding: 2rem; }
+      padding: 1rem 2rem; }
+      .email .container .contact-form .form-group label {
+        font-family: Montserrat;
+        color: #f9f8f4;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 13px;
+        color: #969696; }
+      .email .container .contact-form .form-group input.form-control {
+        background-color: #ffffff;
+        border: 1px solid #d9d9d9;
+        border-radius: 0;
+        font-family: "Open-Sans";
+        font-weight: 300;
+        color: #f9f8f4;
+        color: #c7c7c7; }
+      .email .container .contact-form .form-group .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #0d5195;
+        box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.2); }
+      .email .container .contact-form .form-group textarea {
+        display: block;
+        padding: 1rem;
+        width: 100%;
+        font-family: "Open-Sans";
+        font-weight: 300;
+        color: #f9f8f4;
+        color: #c7c7c7; }
+    .email .container .contact-form .btn {
+      display: block;
+      background-color: #0d5195;
+      color: #ffffff;
+      font-family: Montserrat;
+      color: #f9f8f4;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 13px; }
+    .email .container .contact-form .btn:hover {
+      background-color: #ffffff;
+      color: #0d5195; }
 
 /*# sourceMappingURL=style.css.map */

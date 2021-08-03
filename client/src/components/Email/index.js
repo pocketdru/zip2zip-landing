@@ -44,7 +44,7 @@ export default function QuoteEmail() {
             <label>Year, model, make of the unit you are shipping. Please note all the modifications if you have some.</label>
             <textarea name="message" />
           </div>
-          <input type="submit" value="Send" className="btn"/>
+          <input type="submit" value="SEND MESSAGE" className="btn m-auto pl-4 pr-4 pt-3 pb-3"/>
         </form>
         </div>
         </div>
