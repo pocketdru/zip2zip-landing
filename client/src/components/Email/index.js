@@ -24,16 +24,16 @@ export default function QuoteEmail() {
             <h5 className="card-title mt-5 mb-5">REQUEST A QUICK QUOTE</h5>
           </div>
           <div className="col-md-12">
-        <form className="contact-form" onSubmit={sendEmail}>
+        <form className="contact-form needs-validation" onSubmit={sendEmail}>
           <input type="hidden" name="contact_number"/>
           <div className="form-row">
           <div className="form-group col-md-4">     
             <label>Your Name</label>
-            <input type="text" name="from_name" className="form-control"/>
+            <input type="text" name="from_name" className="form-control" required/>
           </div>
           <div className="form-group col-md-4">
             <label>Your Email</label>
-            <input type="text" name="from_email" className="form-control"/>
+            <input type="email" name="from_email" className="form-control" required/>
           </div>
           <div className="form-group col-md-4">
             <label>Your phone number (optional)</label>
@@ -42,7 +42,7 @@ export default function QuoteEmail() {
           </div>
           <div className="form-group">
             <label>Year, model, make of the unit you are shipping. Please note all the modifications if you have some.</label>
-            <textarea name="message" />
+            <textarea name="message" required/>
           </div>
           <input type="submit" value="SEND MESSAGE" className="btn m-auto pl-4 pr-4 pt-3 pb-3"/>
         </form>
