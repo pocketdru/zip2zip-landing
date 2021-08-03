@@ -1,5 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import "./style.css";
 
 export default function QuoteEmail() {
 
@@ -16,23 +17,28 @@ export default function QuoteEmail() {
   }
 
   return (
-    <section className="email">
+    <section className="email pt-5 pb-5">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
+            <h5 className="card-title mt-5 mb-5">REQUEST A QUICK QUOTE</h5>
+          </div>
+          <div className="col-md-12">
         <form className="contact-form" onSubmit={sendEmail}>
           <input type="hidden" name="contact_number"/>
-          <div className="form-group">     
+          <div className="form-row">
+          <div className="form-group col-md-4">     
             <label>Your Name</label>
             <input type="text" name="from_name" className="form-control"/>
           </div>
-          <div className="form-group">
+          <div className="form-group col-md-4">
             <label>Your Email</label>
             <input type="text" name="from_email" className="form-control"/>
           </div>
-          <div className="form-group">
+          <div className="form-group col-md-4">
             <label>Your phone number (optional)</label>
             <input type="tel" name="phone" className="form-control"/>
+          </div>
           </div>
           <div className="form-group">
             <label>Year, model, make of the unit you are shipping. Please note all the modifications if you have some.</label>

@@ -1,0 +1,16 @@
+.email {
+  background-color: #f8f8f8; }
+  .email .container {
+    background-color: #f4f4f4; }
+    .email .container .card-title {
+      font-family: Montserrat;
+      color: #f9f8f4;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: center; }
+    .email .container .contact-form .form-group {
+      padding: 2rem; }
+
+/*# sourceMappingURL=style.css.map */
