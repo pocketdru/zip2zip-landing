@@ -10,7 +10,7 @@ function Testimonials () {
                     <div className="card-group">
                         <div className="card">
                             <div className="card-body">
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p className="card-text">We use them every year for transporting our vehicles. Always on time and never any hassle. Great group to work with.</p>
                             </div>
                             <div className="card-footer">
                                  <small className="text-muted">Last updated 3 mins ago</small>
