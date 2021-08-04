@@ -4,6 +4,7 @@ import Jumbotron from "../components/Jumbotron";
 import Contact from "../components/Contact";
 import Email from "../components/Email";
 import GalleryMini from "../components/GalleryMini";
+import Testimonials from "../components/Testimonials";
 // import Quote from "../components/Quote";
 // import Footer from "../components/Footer";
 
@@ -14,10 +15,11 @@ class Home extends Component {
             <Nav/>
             <Jumbotron/>
             <Contact/>
+            <Email />
             <GalleryMini />
             {/* <Quote/> */}
             {/* <Footer /> */}
-            <Email />
+            <Testimonials/>
         </div>
         ) 
     }
