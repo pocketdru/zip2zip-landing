@@ -1,1 +1,12 @@
 @import "../../main.scss";
+
+.testimonials {
+    background-color: #f4f4f4;
+    .card-footer{
+        border: none;
+        background-color: inherit;
+        .card-img-top {
+            width: 40%;
+        }
+    }
+}

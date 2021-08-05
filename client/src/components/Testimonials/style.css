@@ -1,3 +1,9 @@
-
+.testimonials {
+  background-color: #f4f4f4; }
+  .testimonials .card-footer {
+    border: none;
+    background-color: inherit; }
+    .testimonials .card-footer .card-img-top {
+      width: 40%; }
 
 /*# sourceMappingURL=style.css.map */

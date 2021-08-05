@@ -1,45 +1,56 @@
 import React from "react";
 import "./style.css";
+import GoogleIcon from '../../assets/images/testimonials/4.png'; 
+
 
 function Testimonials () { 
     return (
         <section className="testimonials">
             <div className="container">
-                <div className="row">
-                    <div className="col-md-12">
-                    <div className="card-group">
-                        <div className="card">
-                            <div className="card-body">
-                                <p className="card-text">We use them every year for transporting our vehicles. Always on time and never any hassle. Great group to work with.</p>
-                            </div>
-                            <div className="card-footer">
-                                 <small className="text-muted">Last updated 3 mins ago</small>
-                            </div>
+                <div className="row card-deck">
+                    <div className="card">
+                        <div className="card-body">
+                            <p className="card-text">We use them every year for transporting our vehicles. Always on time and never any hassle. <span className="font-weight-bold">Great</span> group to work with.</p>
                         </div>
-                        <div className="card">
-                            <div className="card-body">
-                                <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <div className="card-footer d-flex justify-content-between">
+                            <div>
+                                <p className="card-text font-weight-bold">Mark H</p>
                             </div>
-                            <div className="card-footer">
-                                 <small className="text-muted">Last updated 3 mins ago</small>
-                            </div>
+                            <img className="card-img-top" src={GoogleIcon}></img>
                         </div>
-                        <div className="card">
-                            <div className="card-body">
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            </div>
-                            <div className="card-footer">
-                                 <small className="text-muted">Last updated 3 mins ago</small>
-                            </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            <p className="card-text"><span className="font-weight-bold">Positive:</span><span className="font-italic"> Professionalism, Punctuality, Quality</span><br/>
+                            Great costumer service! Keep up the good work!</p>
                         </div>
-                        <div className="card">
-                            <div className="card-body">
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <div className="card-footer d-flex justify-content-between">
+                            <div>
+                                <p className="card-text font-weight-bold">Tempus Logix</p>
                             </div>
-                            <div className="card-footer">
-                                 <small className="text-muted">Last updated 3 mins ago</small>
-                            </div>
+                            <img className="card-img-top" src={GoogleIcon}></img>
                         </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            <p className="card-text">Great and friendly company everything was very  professionally taken care off...</p>
+                        </div>
+                        <div className="card-footer d-flex justify-content-between">
+                            <div>
+                                <p className="card-text font-weight-bold">Dima P</p>
+                            </div>
+                            <img className="card-img-top" src={GoogleIcon}></img>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            <p className="card-text">Very reliable company. Alex the driver is punctual and professional. A+ for the company and services they provided.I will definitely have business with Top One again!</p>
+                        </div>
+                        <div className="card-footer d-flex justify-content-between">
+                            <div>
+                                <p className="card-text font-weight-bold">Maxim G</p>
+                            </div>
+                            <img className="card-img-top" src={GoogleIcon}></img>
                         </div>
                     </div>
                 </div>
