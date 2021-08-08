@@ -43,14 +43,14 @@
             }
             .btn {
                 display: block;
-                background-color: #0d5195;
+                background-color: #045f61;
                 color: #ffffff;
                 @include Montserrat-title();
                 font-size: 13px;
             }
             .btn:hover {
                 background-color: #ffffff;
-                color: #0d5195;
+                color: #045f61;
             }
         }
 

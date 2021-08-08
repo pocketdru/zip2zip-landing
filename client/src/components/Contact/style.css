@@ -3,7 +3,7 @@
 
 .contact {
   margin-top: -3rem;
-  background: linear-gradient(-45deg, #1a2795, #373763, #181834, #03133d);
+  background: linear-gradient(-45deg, #045f61, #1e797b, #27858c, #043161);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite; }
 @keyframes gradient {
@@ -35,12 +35,16 @@
     padding: .75rem 0rem;
     font-size: 11px; }
   .contact .btn {
-    background-color: #0d5195;
+    background-color: #1e797b;
+    color: #f9f8f4;
     border-radius: 0;
     font-family: Montserrat;
     color: #f9f8f4;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px; }
+  .contact .btn:hover {
+    color: #1e797b;
+    background-color: #f9f8f4; }
 
 /*# sourceMappingURL=style.css.map */

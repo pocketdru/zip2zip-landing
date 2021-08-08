@@ -46,7 +46,7 @@
           color: #c7c7c7; }
       .email .container .contact-form .btn {
         display: block;
-        background-color: #0d5195;
+        background-color: #045f61;
         color: #ffffff;
         font-family: Montserrat;
         color: #f9f8f4;
@@ -55,6 +55,6 @@
         font-size: 13px; }
       .email .container .contact-form .btn:hover {
         background-color: #ffffff;
-        color: #0d5195; }
+        color: #045f61; }
 
 /*# sourceMappingURL=style.css.map */

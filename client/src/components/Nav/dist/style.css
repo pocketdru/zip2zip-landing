@@ -1,26 +1,30 @@
 .nav-background {
   background: transparent;
   position: absolute;
-  width: 100%; }
+  width: 100%;
+}
 
 .nav-background .img {
-  width: 100%; }
+  width: 100%;
+}
 
 .nav-background .navbar-brand {
   background-color: #045f61;
-  z-index: 15; }
+  z-index: 15;
+}
 
 .nav-background .navbar-brand a {
   font-family: Montserrat;
   color: #f9f8f4;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 24px; }
+  font-size: 24px;
+}
 
 .svg-inline--fa {
-  color: #ffffff; }
+  color: #ffffff;
+}
 
-.nav-background .nav .nav-link:hover .svg-inline--fa {
-  color: #0d5195; }
-
-/*# sourceMappingURL=style.css.map */
+.nav a > .svg-inline--fa {
+  color: #0d5195;
+}

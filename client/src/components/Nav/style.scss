@@ -11,7 +11,7 @@
 }
 
 .nav-background .navbar-brand {
-    background-color: #0d5195;
+    background-color: #045f61;
     z-index: 15;
 }
 
@@ -24,6 +24,6 @@
     color: #ffffff;
 }
 
-.svg-inline--fa:hover {
+.nav-background .nav .nav-link:hover .svg-inline--fa{
     color: #0d5195;
 }
