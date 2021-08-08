@@ -28,6 +28,7 @@
           font-family: "Open-Sans";
           font-weight: 300;
           color: #f9f8f4;
+          font-size: 13px;
           color: #c7c7c7; }
         .email .container .contact-form .form-group .form-control:focus {
           color: #495057;
@@ -41,6 +42,7 @@
           font-family: "Open-Sans";
           font-weight: 300;
           color: #f9f8f4;
+          font-size: 13px;
           color: #c7c7c7; }
       .email .container .contact-form .btn {
         display: block;

@@ -2,11 +2,24 @@
 
 .testimonials {
     background-color: #f4f4f4;
-    .card-footer{
+    .card {
+        border-radius: 0;
+        box-shadow: rgba(0, 0, 0, 0.1) 5px 1px 5px;
+    }
+    .card-body .card-text {
+        @include Open-Sans-par();
+        color: #727272; 
+    }
+    .card-footer {
         border: none;
         background-color: inherit;
         .card-img-top {
             width: 40%;
+        }
+        .card-text {
+            @include Montserrat-title();
+            color: #000000;
+            font-size: 14px;
         }
     }
 }
