@@ -5,6 +5,7 @@ import Contact from "../components/Contact";
 import Email from "../components/Email";
 import GalleryMini from "../components/GalleryMini";
 import Testimonials from "../components/Testimonials";
+import Faq from "../components/Faq";
 // import Quote from "../components/Quote";
 // import Footer from "../components/Footer";
 
@@ -20,6 +21,7 @@ class Home extends Component {
             {/* <Quote/> */}
             {/* <Footer /> */}
             <Testimonials/>
+            <Faq />
         </div>
         ) 
     }
