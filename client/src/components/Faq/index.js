@@ -12,21 +12,19 @@ function Faq () {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-12 p-0">
-                        <div class="card-group">
-                            <div class="card bg-dark text-white">
-                                <img src={Truck1} class="card-img" alt="..."/>
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text">Last updated 3 mins ago</p>
+                        <div className="card-group">
+                            <div className="card bg-dark text-white">
+                                <img src={Truck1} className="card-img" alt="..."/>
+                                <div className="card-img-overlay">
+                                    <h5 className="card-title mt-5">How do I get a quote for shipping my vehicle?</h5>
+                                    <button className="btn">See more</button>
                                 </div>
                             </div>
-                            <div class="card bg-dark text-white">
-                                <img src={Truck2} class="card-img" alt="..."/>
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text">Last updated 3 mins ago</p>
+                            <div className="card bg-dark text-white">
+                                <img src={Truck2} className="card-img" alt="..."/>
+                                <div className="card-img-overlay">
+                                    <h5 className="card-title mt-5">How do I pay for my auto shipping?</h5>
+                                    <button className="btn">See more</button>
                                 </div>
                             </div>
                         </div>
@@ -34,29 +32,26 @@ function Faq () {
                 </div>
                 <div className="row">
                     <div className="col-md-12 p-0">
-                        <div class="card-group">
-                            <div class="card bg-dark text-white">
-                                <img src={Truck3} class="card-img" alt="..."/>
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text">Last updated 3 mins ago</p>
+                        <div className="card-group">
+                            <div className="card bg-dark text-white">
+                                <img src={Truck3} className="card-img" alt="..."/>
+                                <div className="card-img-overlay">
+                                    <h5 className="card-title mt-5">Can I pay the full transport cost with my credit card?</h5>
+                                    <button className="btn">See more</button>
                                 </div>
                             </div>
-                            <div class="card bg-dark text-white">
-                                <img src={Truck4} class="card-img" alt="..."/>
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text">Last updated 3 mins ago</p>
+                            <div className="card bg-dark text-white">
+                                <img src={Truck4} className="card-img" alt="..."/>
+                                <div className="card-img-overlay">
+                                    <h5 className="card-title mt-5">How do I get my car ready for shipment?</h5>
+                                    <button className="btn">See more</button>
                                 </div>
                             </div>
-                            <div class="card bg-dark text-white">
-                                <img src={Truck5} class="card-img" alt="..."/>
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text">Last updated 3 mins ago</p>
+                            <div className="card bg-dark text-white">
+                                <img src={Truck5} className="card-img" alt="..."/>
+                                <div className="card-img-overlay">
+                                    <h5 className="card-title mt-5">Can I ship my vehicle if it isn't running?</h5>
+                                    <button className="btn">See more</button>
                                 </div>
                             </div>
                         </div>

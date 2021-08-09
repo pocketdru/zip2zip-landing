@@ -1,3 +1,25 @@
-
+.faq .card, .faq .card-group, .faq .card-img {
+  border: none;
+  border-radius: 0; }
+.faq .card-img-overlay {
+  background-color: rgba(30, 121, 123, 0.3); }
+  .faq .card-img-overlay .card-title {
+    text-align: center;
+    font-family: Montserrat;
+    color: #f9f8f4;
+    text-transform: uppercase;
+    font-weight: 700; }
+  .faq .card-img-overlay .btn {
+    color: #f9f8f4;
+    display: block;
+    margin: 0 auto;
+    font-family: "Open-Sans";
+    font-weight: 300;
+    color: #f9f8f4;
+    font-size: 13px;
+    background-color: #27858c; }
+  .faq .card-img-overlay .btn:hover {
+    background-color: #f9f8f4;
+    color: #27858c; }
 
 /*# sourceMappingURL=style.css.map */

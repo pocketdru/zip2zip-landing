@@ -1,0 +1,25 @@
+@import "../../main.scss";
+.faq {
+    .card, .card-group, .card-img {
+        border: none;
+        border-radius: 0;
+    }
+    .card-img-overlay {
+        background-color: rgba(30, 121, 123, 0.3);
+        .card-title {
+            text-align: center;
+            @include Montserrat-title();
+        }
+        .btn {
+            color: #f9f8f4;
+            display: block;
+            margin: 0 auto;
+            @include Open-Sans-par();
+            background-color: #27858c;
+        }
+        .btn:hover {
+            background-color: #f9f8f4;
+            color: #27858c;
+        }
+    }
+}
