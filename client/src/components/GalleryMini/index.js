@@ -20,13 +20,13 @@ function GalleryMini () {
                     <div className="col-md-6 mt-5">
                     <div className="card-deck mt-5">
                     <div className="card mt-1">
-                        <img className="card-img-top" src={Truck1} alt="Card image cap"/>
+                        <img className="card-img-top" src={Truck1} alt="truck"/>
                     </div>
                     <div className="card mt-1">
-                        <img className="card-img-top" src={Truck2} alt="Card image cap"/>
+                        <img className="card-img-top" src={Truck2} alt="truck"/>
                     </div>
                     <div className="card mt-1">
-                        <img className="card-img-top" src={Truck3} alt="Card image cap"/>
+                        <img className="card-img-top" src={Truck3} alt="truck"/>
                     </div>
                     </div>
                     </div>
