@@ -12,7 +12,6 @@
         }
         .contact-form {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-
             .form-group {
                 padding: 1rem 2rem;
                 label {
@@ -43,14 +42,14 @@
             }
             .btn {
                 display: block;
-                background-color: #045f61;
+                background-color: #479528;
                 color: #ffffff;
                 @include Montserrat-title();
                 font-size: 13px;
             }
             .btn:hover {
                 background-color: #ffffff;
-                color: #045f61;
+                color: #479528;
             }
         }
 

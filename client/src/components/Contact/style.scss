@@ -6,7 +6,7 @@
 
 .contact {
     margin-top: -3rem;
-    background: linear-gradient(-45deg, #045f61, #1e797b, #27858c, #043161);
+    background: linear-gradient(-45deg, #479528, #599F3D, #6BAA53, #3F8624);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 @keyframes gradient {
@@ -43,14 +43,14 @@
         }
     }
     .btn  {
-        background-color: #1e797b;
+        background-color: #599F3D;
         color: #f9f8f4;
         border-radius: 0;
         @include Montserrat-title();
         font-size: 13px;
     }
     .btn:hover {
-        color: #1e797b;
+        color: #599F3D;
         background-color: #f9f8f4;
     }
 }

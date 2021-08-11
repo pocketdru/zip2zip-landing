@@ -5,7 +5,7 @@
         border-radius: 0;
     }
     .card-img-overlay {
-        background-color: rgba(30, 121, 123, 0.3);
+        background-color: rgba(80, 161, 48, 0.35);
         .card-title {
             text-align: center;
             @include Montserrat-title();
@@ -15,11 +15,11 @@
             display: block;
             margin: 0 auto;
             @include Open-Sans-par();
-            background-color: #27858c;
+            background-color: #599F3D;
         }
         .btn:hover {
             background-color: #f9f8f4;
-            color: #27858c;
+            color: #599F3D;
         }
     }
 }

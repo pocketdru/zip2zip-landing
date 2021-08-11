@@ -2,7 +2,7 @@
   border: none;
   border-radius: 0; }
 .faq .card-img-overlay {
-  background-color: rgba(30, 121, 123, 0.3); }
+  background-color: rgba(80, 161, 48, 0.35); }
   .faq .card-img-overlay .card-title {
     text-align: center;
     font-family: Montserrat;
@@ -17,9 +17,9 @@
     font-weight: 300;
     color: #f9f8f4;
     font-size: 13px;
-    background-color: #27858c; }
+    background-color: #599F3D; }
   .faq .card-img-overlay .btn:hover {
     background-color: #f9f8f4;
-    color: #27858c; }
+    color: #599F3D; }
 
 /*# sourceMappingURL=style.css.map */

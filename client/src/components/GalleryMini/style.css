@@ -1,7 +1,7 @@
 .galleryMini .card {
   border: none; }
 .galleryMini .card-background {
-  background-color: #045f61; }
+  background-color: #599F3D; }
   .galleryMini .card-background .card {
     background-color: inherit; }
     .galleryMini .card-background .card .card-title {
@@ -10,7 +10,8 @@
       text-transform: uppercase;
       font-weight: 700;
       font-size: 24px;
-      text-align: center; }
+      text-align: center;
+      text-shadow: rgba(0, 0, 0, 0.5) 5px 1px 5px; }
     .galleryMini .card-background .card .btn {
       font-family: Montserrat;
       color: #f9f8f4;
@@ -21,13 +22,16 @@
       margin: auto;
       display: block;
       background-color: #f9f8f4;
-      border-radius: 0; }
+      border-radius: 0;
+      box-shadow: rgba(0, 0, 0, 0.5) 5px 1px 5px; }
     .galleryMini .card-background .card .btn:hover {
       color: #f9f8f4;
-      background-color: #000000; }
+      background-color: #000000;
+      box-shadow: rgba(0, 0, 0, 0.1) 5px 1px 5px; }
 .galleryMini .card-deck {
   margin-left: -8em; }
   .galleryMini .card-deck .card {
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 1px 5px;
     margin: 0em 1em;
     border-radius: 0; }
     .galleryMini .card-deck .card .card-img-top {
