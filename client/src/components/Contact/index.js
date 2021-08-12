@@ -7,7 +7,7 @@ import Email from '../../assets/images/contact/Layer_5.png';
 function Contact () {
     return (
         <section className="contact-background">
-            <div className="container contact">
+            <div className="container" id="contact">
                 <div className="row">
                     <div className="col-md-3">
                     <div className="card">

@@ -6,8 +6,20 @@
 }
 
 @mixin Open-Sans-par {
-    font-family: "Open-Sans";
+    font-family: "Open Sans";
     font-weight: 300;
     color: #f9f8f4;
     font-size: 13px;
+}
+
+@mixin btn {
+    .btn {
+        background-color: #599F3D;
+        @include Montserrat-title();
+        font-size: 13px; 
+       }
+    .btn:hover {
+        background-color:#f9f8f4;
+        color: #599F3D;
+    }
 }

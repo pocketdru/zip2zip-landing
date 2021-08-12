@@ -1,6 +1,6 @@
 @import "../../main.scss";
 
-.email {
+#email {
     background-color: #ffffff;
     .container {
         background-color: #f4f4f4;
@@ -40,17 +40,7 @@
                     color: #c7c7c7;
                 }
             }
-            .btn {
-                display: block;
-                background-color: #479528;
-                color: #ffffff;
-                @include Montserrat-title();
-                font-size: 13px;
-            }
-            .btn:hover {
-                background-color: #ffffff;
-                color: #479528;
-            }
+            @include btn;
         }
 
     }

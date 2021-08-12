@@ -1,5 +1,6 @@
 @import "../../main.scss";
-.faq {
+#faq {
+    background-color: #f4f4f4;
     .card, .card-group, .card-img {
         border: none;
         border-radius: 0;
@@ -10,16 +11,6 @@
             text-align: center;
             @include Montserrat-title();
         }
-        .btn {
-            color: #f9f8f4;
-            display: block;
-            margin: 0 auto;
-            @include Open-Sans-par();
-            background-color: #599F3D;
-        }
-        .btn:hover {
-            background-color: #f9f8f4;
-            color: #599F3D;
-        }
+        @include btn;
     }
 }

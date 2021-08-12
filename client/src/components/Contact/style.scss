@@ -4,7 +4,7 @@
     background-color: transparent;
 }
 
-.contact {
+#contact {
     margin-top: -3rem;
     background: linear-gradient(-45deg, #479528, #599F3D, #6BAA53, #3F8624);
     background-size: 400% 400%;
@@ -37,20 +37,11 @@
         }
         .list-group-item {  
             @include Open-Sans-par();
-            font-weight: 400;
             padding: .75rem 0rem;
             font-size: 11px;
         }
     }
-    .btn  {
-        background-color: #599F3D;
-        color: #f9f8f4;
-        border-radius: 0;
-        @include Montserrat-title();
-        font-size: 13px;
-    }
-    .btn:hover {
-        color: #599F3D;
-        background-color: #f9f8f4;
+    .align-self-center{
+        @include btn();
     }
 }

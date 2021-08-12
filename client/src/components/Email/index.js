@@ -17,7 +17,7 @@ export default function QuoteEmail() {
   }
 
   return (
-    <section className="email">
+    <section id="email">
       <div className="container pt-5 pb-5">
         <div className="row">
           <div className="col-md-12">
@@ -44,7 +44,7 @@ export default function QuoteEmail() {
             <label>Year, model, make of the unit you are shipping. Please note all the modifications if you have some.</label>
             <textarea name="message" required/>
           </div>
-          <input type="submit" value="SEND MESSAGE" className="btn mx-auto pl-4 pr-4 pt-3 pb-3"/>
+          <input type="submit" value="SEND MESSAGE" className="btn d-block mx-auto pl-4 pr-4 pt-3 pb-3"/>
         </form>
         </div>
         </div>

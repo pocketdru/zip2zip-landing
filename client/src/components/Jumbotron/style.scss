@@ -5,12 +5,13 @@
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url("../../assets/images/jumbotron/4.jpg");
+    background-image: url("../../assets/images/jumbotron/2.jpeg");
     .jumbotron {
         margin-bottom: 0;
         background: none;
     }
     .carousel-caption {
+        @include btn();
         position: inherit;
     }
     .nav {
@@ -18,17 +19,6 @@
         .nav-link a, .btn a {
             @include Montserrat-title();
             font-size: 13px;
-        }
-
-        .btn {
-            background-color: #599F3D; 
-           }
-
-        .btn:hover {
-            background-color:#f9f8f4;
-            a {
-                color: #599F3D;
-            }
         }
     }
     .text-right {

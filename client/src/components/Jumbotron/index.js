@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-// import background from "../../assets/images/jumbotron/3.jpeg"
 
 function Jumbotron() {
   return (

@@ -16,7 +16,7 @@ function Testimonials () {
                             <div>
                                 <p className="card-text font-weight-bold">Mark H</p>
                             </div>
-                            <img className="card-img-top" src={GoogleIcon}></img>
+                            <img className="card-img-top" src={GoogleIcon} alt="google review"></img>
                         </div>
                     </div>
                     <div className="card">
@@ -28,7 +28,7 @@ function Testimonials () {
                             <div>
                                 <p className="card-text font-weight-bold">Tempus Logix</p>
                             </div>
-                            <img className="card-img-top" src={GoogleIcon}></img>
+                            <img className="card-img-top" src={GoogleIcon} alt="google review"></img>
                         </div>
                     </div>
                     <div className="card">
@@ -39,7 +39,7 @@ function Testimonials () {
                             <div>
                                 <p className="card-text font-weight-bold">Dima P</p>
                             </div>
-                            <img className="card-img-top" src={GoogleIcon}></img>
+                            <img className="card-img-top" src={GoogleIcon} alt="google review"></img>
                         </div>
                     </div>
                     <div className="card">
@@ -50,7 +50,7 @@ function Testimonials () {
                             <div>
                                 <p className="card-text font-weight-bold">Maxim G</p>
                             </div>
-                            <img className="card-img-top" src={GoogleIcon}></img>
+                            <img className="card-img-top" src={GoogleIcon} alt="google review"></img>
                         </div>
                     </div>
                 </div>

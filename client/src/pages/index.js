@@ -7,7 +7,7 @@ import GalleryMini from "../components/GalleryMini";
 import Testimonials from "../components/Testimonials";
 import Faq from "../components/Faq";
 // import Quote from "../components/Quote";
-// import Footer from "../components/Footer";
+import Footer from "../components/Footer";
 
 class Home extends Component {
     render() {
@@ -19,9 +19,9 @@ class Home extends Component {
             <Email />
             <GalleryMini />
             {/* <Quote/> */}
-            {/* <Footer /> */}
             <Testimonials/>
             <Faq />
+            <Footer />
         </div>
         ) 
     }
