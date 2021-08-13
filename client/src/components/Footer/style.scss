@@ -1,5 +1,12 @@
 @import "../../main.scss";
 
 .footer {
-    background-color: #1c1c1c;
+    background-color: #479528;
+    .nav .nav-link {
+        @include Open-Sans-par;
+        font-size: 11px;
+    }
+    .card-img-top {
+        width: 20%;
+    }
 }

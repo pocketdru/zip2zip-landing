@@ -1,33 +1,34 @@
 import React from "react";
 import "./style.css";
+import logo from "../../assets/images/nav/logo.png";
 
 function Footer() {
     return (
         <section className="footer">
             <div className="container">
                 <div className="row">
+                    <div className="col-md-4 d-flex align-self-center justify-content-start">
+                        <img src={logo} className="card-img-top" alt="logo" />
+                    </div> 
                     <div className="col-md-4">
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#faq">FAQs</a>
+                        <ul className="nav flex-column">
+                            <li className="nav-item">
+                                <a className="nav-link active" href="#faq">FAQs</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#email">Request a quote</a>
+                            <li className="nav-item">
+                                <a className="nav-link active" href="#email">Request a quote</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact us</a>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#contact">Contact us</a>
                             </li>
 
                         </ul> 
                     </div>
-                    <div className="col-md-4">
-                        <ul class="nav flex-column">
-                            <li class="nav-item"> </li>
+                    <div className="col-md-4 align-items-end">
+                        <ul className="nav flex-column">
+                            <li className="nav-item align-text-bottom">&copy; 2021 Top One Transportation</li>
                         </ul>                   
                     </div>
-                    <div className="col-md-4 d-flex align-self-center">
-                        <button type="button" className="btn m-auto">Request a quote</button>
-                    </div>  
                 </div>
             </div>
         </section>

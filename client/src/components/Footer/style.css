@@ -1,4 +1,12 @@
 .footer {
-  background-color: #1c1c1c; }
+  background-color: #479528; }
+  .footer .nav .nav-link {
+    font-family: "Open Sans";
+    font-weight: 300;
+    color: #f9f8f4;
+    font-size: 13px;
+    font-size: 11px; }
+  .footer .card-img-top {
+    width: 20%; }
 
 /*# sourceMappingURL=style.css.map */
