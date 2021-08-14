@@ -1,0 +1,13 @@
+.footer {
+  background-color: #479528;
+}
+.footer .nav .nav-link, .footer .nav-item {
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: #f9f8f4;
+  font-size: 13px;
+  font-size: 11px;
+}
+.footer .card-img-top {
+  width: 20%;
+}

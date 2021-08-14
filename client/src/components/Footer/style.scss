@@ -2,7 +2,7 @@
 
 .footer {
     background-color: #479528;
-    .nav .nav-link {
+    .nav .nav-link, .nav-item {
         @include Open-Sans-par;
         font-size: 11px;
     }

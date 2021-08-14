@@ -1,6 +1,6 @@
 .footer {
   background-color: #479528; }
-  .footer .nav .nav-link {
+  .footer .nav .nav-link, .footer .nav-item {
     font-family: "Open Sans";
     font-weight: 300;
     color: #f9f8f4;

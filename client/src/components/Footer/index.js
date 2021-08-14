@@ -6,7 +6,7 @@ function Footer() {
     return (
         <section className="footer">
             <div className="container">
-                <div className="row">
+                <div className="row align-items-end">
                     <div className="col-md-4 d-flex align-self-center justify-content-start">
                         <img src={logo} className="card-img-top" alt="logo" />
                     </div> 
@@ -24,7 +24,7 @@ function Footer() {
 
                         </ul> 
                     </div>
-                    <div className="col-md-4 align-items-end">
+                    <div className="col-md-4">
                         <ul className="nav flex-column">
                             <li className="nav-item align-text-bottom">&copy; 2021 Top One Transportation</li>
                         </ul>                   
