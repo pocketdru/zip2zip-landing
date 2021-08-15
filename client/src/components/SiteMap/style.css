@@ -3,12 +3,12 @@
   .faqPage .nav-background {
     position: static; }
 
-.fullFaq .container {
+.siteMap .container {
   background-color: #f9f8f4;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); }
-  .fullFaq .container #contact {
+  .siteMap .container #contact {
     margin-top: 0rem; }
-    .fullFaq .container #contact .card-deck {
+    .siteMap .container #contact .card-deck {
       display: block; }
 
 /*# sourceMappingURL=style.css.map */

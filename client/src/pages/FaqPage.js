@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav";
-import FullFaq from "../components/FullFaq";
+import SiteMap from "../components/SiteMap";
 import Footer from "../components/Footer";
 class FaqPage extends Component {
     render() {
         return (
         <div className="faqPage">
             <Nav/>
-            <FullFaq />
+            <SiteMap />
             <Footer />
         </div>
         ) 
