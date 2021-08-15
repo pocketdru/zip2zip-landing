@@ -6,10 +6,7 @@ import Email from '../../assets/images/contact/Layer_5.png';
 
 function Contact () {
     return (
-        <section className="contact-background">
-            <div className="container" id="contact">
-                <div className="row card-deck">
-                    <div className="col-md-12">
+                        <div className="card-deck">
                     <div className="card">
                         <div className="card-body">
                         <img src={Hours} className="img-fluid rounded-start" alt="..."/>
@@ -31,7 +28,6 @@ function Contact () {
                         </div>                     
                     </div>
                     <div className="card">
-                            <div className="row">
                                 <div className="card-body">
                                 <img src={Email} className="img-fluid rounded-start" alt="..."/>
                                 <ul className="list-group">
@@ -39,16 +35,12 @@ function Contact () {
                                     <li className="list-group-item">toponetransportation@gmail.com</li>
                                     <li className="list-group-item">toponetransportation@gmail.com</li>
                                 </ul>
-                            </div>
                         </div>                    
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 d-flex align-self-center">
+                    <div className="card d-flex align-self-center">
                         <button type="button" className="btn m-auto">Request a quote</button>
                     </div>
                 </div>
-                </div>
-            </div>
-        </section>
     )
 }
 

@@ -1,11 +1,19 @@
 @import "../../main.scss";
 
 .faqPage {
+    background: url("../../assets/images/fullFaq/2.jpg");
     .nav-background {
         position: static;
     }
 }
 
-.fullFaq {
+.fullFaq .container{
     background-color: #f9f8f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    #contact {
+        margin-top: 0rem;
+        .card-deck {
+            display: block;
+        }
+    }
 }

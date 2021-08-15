@@ -15,8 +15,16 @@ class Home extends Component {
         <div>
             <Nav/>
             <Jumbotron/>
-            <Contact/>
-            <Email />
+            <section className="contact-background">
+                <div className="container" id="contact">
+                    <div className="row">
+                        <div className="col-md-12">
+                        <Contact/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <Email/>
             <GalleryMini />
             {/* <Quote/> */}
             <Testimonials/>
