@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 class FaqPage extends Component {
     render() {
         return (
-        <div>
+        <div className="faqPage">
             <Nav/>
             <FullFaq />
             <Footer />
