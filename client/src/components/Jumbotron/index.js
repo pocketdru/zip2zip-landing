@@ -5,7 +5,7 @@ function Jumbotron() {
   return (
     <section className="jumbotron-carousel">
       <div className="container">
-        <div className="col-md-12">
+        <div className="col-lg-12 ">
           <div className="jumbotron pt-5 pl-0 pr-0 pb-0">
             {/* <img className="d-block w-100" src={background} alt="board"/> */}
             <div className="carousel-caption pt-5 mb-5">
