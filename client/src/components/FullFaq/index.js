@@ -251,6 +251,71 @@ class FullFaq extends Component {
                                 <p className="tab-paragraph">This is when you ship your car on a trailer with a roof and walls, otherwise known as an enclosure. This provides much more protection from the weather and other potentially damaging hazards on the road which your vehicle is normally exposed to during a regular car transport.</p>
                             </Tab>      
                         </Tabs>
+                        <Tabs defaultActiveKey="" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="glossary" title="Expedited Auto Transport">
+                                <p className="tab-paragraph">This service is for when you need your car shipped as fast as possible. This will speed up the car transport process but will also cost more.</p>
+                            </Tab>      
+                        </Tabs>
+                        <Tabs defaultActiveKey="" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="glossary" title="Exception">
+                                <p className="tab-paragraph">This is the process where notes are made when the shipment is received at the carriers' terminal or put onto a vessel. They show any abnormalities in packaging or actual or suspected damage to the shipment. They are then added to the bill of lading.</p>
+                            </Tab>      
+                        </Tabs>
+                        <Tabs defaultActiveKey="" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="glossary" title="FMCSA">
+                                <p className="tab-paragraph">The Federal Motor Carrier Safety Administration is an established government agency which is a smaller part of the Department of Transportation. The FMCSA is responsible for regulating motor carrier and driver safety on the roads.</p>
+                            </Tab>      
+                        </Tabs>
+                        <Tabs defaultActiveKey="" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="glossary" title="Lowboy">
+                                <p className="tab-paragraph">This is a type of car hauler where the deck height drops below the height of the wheels in order to be able to carry taller standing loads.</p>
+                            </Tab>      
+                        </Tabs>
+                        <Tabs defaultActiveKey="" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="glossary" title="MC Number">
+                                <p className="tab-paragraph">The MC number, or Motor Carrier Number, is issued by the U.S. Department of Transportation and the FMCSA.</p>
+                            </Tab>      
+                        </Tabs>
+                        <Tabs defaultActiveKey="" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="glossary" title="Open Carrier Transport">
+                                <p className="tab-paragraph">This is any carrier without an enclosure. These are the most common types of carriers that you’ll see out on the road. They do not offer any protection from the elements.</p>
+                            </Tab>      
+                        </Tabs>
+                        <Tabs defaultActiveKey="" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="glossary" title="Operating Authority">
+                                <p className="tab-paragraph">The allowance given by the Department of Transportation to run any sort of freight company which encompasses car shipping companies.</p>
+                            </Tab>      
+                        </Tabs>
+                        <Tabs defaultActiveKey="" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="glossary" title="Pickup Window">
+                                <p className="tab-paragraph">This is the period in which your car will be picked up for shipment. The full window generally tends to be about three or four days long.</p>
+                            </Tab>      
+                        </Tabs>
+                        <Tabs defaultActiveKey="" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="glossary" title="Proof of Delivery (POD)">
+                                <p className="tab-paragraph">The receipt/documentation that your vehicle has been delivered.</p>
+                            </Tab>      
+                        </Tabs>
+                        <Tabs defaultActiveKey="" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="glossary" title="Shared Vehicle Shipping / Shared Car Carrier">
+                                <p className="tab-paragraph">These are how the most common car shipping carriers operate. Usually, the cost of the entire transport is divided up between all the cars on the transport thus making it cheaper for all parties involved.</p>
+                            </Tab>      
+                        </Tabs>
+                        <Tabs defaultActiveKey="" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="glossary" title="Stinger Steered">
+                                <p className="tab-paragraph">This is a type of car hauler where the 5th wheel is positioned on a drop frame set behind and lower than the rearmost axle of the power unit.</p>
+                            </Tab>      
+                        </Tabs>
+                        <Tabs defaultActiveKey="" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="glossary" title="Top Load">
+                                <p className="tab-paragraph">This is the name for all the cars on the upper portion of the auto carrier. If you choose to have your car in the top load it normally costs an additional fee.</p>
+                            </Tab>      
+                        </Tabs>
+                        <Tabs defaultActiveKey="" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="glossary" title="Terminal">
+                                <p className="tab-paragraph">The terminal is a facility that acts as a central hub where vehicles are shipped and stored in order to be picked up by the client. This is now a rarely used form of vehicle shipping since door-to-door shipping became more popular.</p>
+                            </Tab>      
+                        </Tabs>
                     </Tab.Pane>
                     </Tab.Content>
                    </div>
