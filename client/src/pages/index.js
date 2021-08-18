@@ -3,6 +3,7 @@ import Nav from "../components/Nav";
 import Jumbotron from "../components/Jumbotron";
 import Contact from "../components/Contact";
 import Email from "../components/Email";
+import Quote from "../components/Quote";
 import GalleryMini from "../components/GalleryMini";
 import Testimonials from "../components/Testimonials";
 import Faq from "../components/Faq";
@@ -25,6 +26,7 @@ class Home extends Component {
                 </div>
             </section>
             <Email/>
+            <Quote />
             <GalleryMini />
             {/* <Quote/> */}
             <Testimonials/>

@@ -54,5 +54,7 @@
       #email .container .contact-form .btn:hover {
         background-color: #f9f8f4;
         color: #599F3D; }
+  #email iframe {
+    height: 700px; }
 
 /*# sourceMappingURL=style.css.map */
