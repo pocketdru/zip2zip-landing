@@ -11,15 +11,16 @@
         background: none;
     }
     .carousel-caption {
-        @include btn();
         position: inherit;
     }
     .nav {
         justify-content: flex-end;
+        
         .nav-link a, .btn a {
             @include Montserrat-title();
             font-size: 13px;
         }
+        @include btn();
     }
     .text-right {
         text-transform: uppercase;

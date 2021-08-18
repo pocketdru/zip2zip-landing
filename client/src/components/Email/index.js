@@ -15,7 +15,18 @@ export default function QuoteEmail() {
       });
       e.target.reset();
   }
+  var yearOptions = [];
+for (var i = 2022; i > 1899; i--) {
+    yearOptions.push((i));
+}
 
+var cars = [
+  {make: "Acura", model: ["ILX", "MDX", "NSX", "RDX", "RLX", "TLX"]},
+  {make: "Alfa Romeo", model: ["4C", "Giulia", "Giulia Quadrifoglio", "Stelvio", "Stelvio Quadrifoglio"]},
+  {make: "Audi", model: ["A4", "A4 allroad", "A5", "A5 Sportback", "A6", "A6 allroad", "A7", "A8 L", "e-tron", "Q3", "Q5", "Q5 Sportback", "Q7", "Q8", "R8", "RS 5", "RS 5 Sportback", "RS 6", "RS 7", "RS Q8", "S4", "S5", "S5 sportback", "S6", "S7", "S8", "SQ5", "SQ5 Sportback", "SQ7", "SQ8", "TT", "TT RS", "TTS"]}
+
+  
+]
   return (
     <section id="email">
       <div className="container pt-5 pb-5">
@@ -38,6 +49,17 @@ export default function QuoteEmail() {
           <div className="form-group col-md-4">
             <label>Your phone number (optional)</label>
             <input type="tel" name="phone" className="form-control"/>
+          </div>
+          </div>
+          <div className="form-row">
+          <div className="form-group col-md-4">
+            <label htmlFor="inputState">Vehicle year</label>
+            <select id="inputState" className="form-control" name="year">
+            <option>Select</option>
+              {yearOptions.map(function(year, i){
+                return <option key={i}>{year}</option>
+              })}
+            </select>
           </div>
           </div>
           <div className="form-group">

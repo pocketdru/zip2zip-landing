@@ -15,7 +15,7 @@ function Jumbotron() {
                     <li className="nav-link"><a href="/">GLOBAL COVERAGE</a></li>
                     <li className="nav-link"><a href="/">News</a></li>
                     <li className="nav-link"><a href="/">Contact</a></li>
-                    <li className="ml-2 p-3 btn"><a href="/">REQUEST A QUOTE</a></li>
+                    <li className="nav-link"><a className="btn p-3" href="/">REQUEST A QUOTE </a></li>
                 </nav>
             </div>
             <div className="mt-5 mb-5 text-right">

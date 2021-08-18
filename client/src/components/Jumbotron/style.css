@@ -9,16 +9,6 @@
     background: none; }
   .jumbotron-carousel .carousel-caption {
     position: inherit; }
-    .jumbotron-carousel .carousel-caption .btn {
-      background-color: #599F3D;
-      font-family: Montserrat;
-      color: #f9f8f4;
-      text-transform: uppercase;
-      font-weight: 700;
-      font-size: 13px; }
-    .jumbotron-carousel .carousel-caption .btn:hover {
-      background-color: #f9f8f4;
-      color: #599F3D; }
   .jumbotron-carousel .nav {
     justify-content: flex-end; }
     .jumbotron-carousel .nav .nav-link a, .jumbotron-carousel .nav .btn a {
@@ -27,6 +17,16 @@
       text-transform: uppercase;
       font-weight: 700;
       font-size: 13px; }
+    .jumbotron-carousel .nav .btn {
+      background-color: #599F3D;
+      font-family: Montserrat;
+      color: #f9f8f4;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 13px; }
+    .jumbotron-carousel .nav .btn:hover {
+      background-color: #f9f8f4;
+      color: #599F3D; }
   .jumbotron-carousel .text-right {
     text-transform: uppercase; }
     .jumbotron-carousel .text-right h1 {
