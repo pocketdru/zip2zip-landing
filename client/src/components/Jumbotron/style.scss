@@ -1,6 +1,25 @@
 @import "../../main.scss";
-
 .jumbotron-carousel {
+@media (max-width: 992px) {
+    padding-bottom: 9rem;
+}
+@media (max-width: 1441px) {
+    padding-bottom: 1rem;
+}
+// @media (max-width: 1281px) {
+//     bottom: 40%;
+// }
+
+// @media (max-width: 900px) {
+//     bottom: 35%;
+//  }
+
+@media (max-width: 769px) {
+    .jumbotron .text-right h1 {
+        font-size: 50px;
+        margin-top: 4rem;
+    }
+ }
     padding-bottom: 12rem;
     background-position: center center;
     background-attachment: fixed;

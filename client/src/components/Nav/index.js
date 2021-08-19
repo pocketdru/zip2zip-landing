@@ -10,7 +10,7 @@ function Nav() {
     <section className="nav-background">
     <div className="container">
       <div className="row">
-        <div className="col-6 col-sm-6 col-md-3 col-lg-3 offset-4 offset-sm-4 offset-md-0 offset-lg-0">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-12">
           <div className="navbar-brand position-absolute p-4" href="/">
               <img src={logo} width="50" height="50"  className="d-block align-top ml-auto mr-auto mt-3" alt="" loading="lazy"/>
               <a className="flex-sm-fill pt-2 pb-2 d-block" href="/">Top One</a>
