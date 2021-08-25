@@ -28,7 +28,7 @@ class Quote extends Component {
         myHeaders.append('Origin','http://localhost:3000');
 
 
-        var raw = JSON.stringify({"rate_options":{"carrier_ids":["se-656576"]},"shipment":{"validate_address":"no_validation","ship_to":{"name":"Amanda Miller","phone":"555-555-5555","address_line1":"525 S Winchester Blvd","city_locality":"San Jose","state_province":"CA","postal_code":"95128","country_code":"US","address_residential_indicator":"yes"},"ship_from":{"company_name":"Example Corp.","name":"John Doe","phone":"111-111-1111","address_line1":"4009 Marathon Blvd","address_line2":"Suite 300","city_locality":"Austin","state_province":"TX","postal_code":"78756","country_code":"US","address_residential_indicator":"no"},"packages":[{"weight":{"value":1,"unit":"ounce"}}]}});
+        var raw = JSON.stringify({"rate_options":{"carrier_ids":["se-656576"]},"shipment":{"validate_address":"no_validation","ship_to":{"name":"Amanda Miller","phone":"555-555-5555","address_line1":"525 S Winchester Blvd","city_locality":"San Jose","state_province":"CA","postal_code":"90012","country_code":"US","address_residential_indicator":"yes"},"ship_from":{"company_name":"Example Corp.","name":"John Doe","phone":"111-111-1111","address_line1":"4009 Marathon Blvd","address_line2":"Suite 300","city_locality":"Austin","state_province":"CO","postal_code":"80247","country_code":"US","address_residential_indicator":"no"},"packages":[{"weight":{"value":1,"unit":"ounce"}}]}});
         
         var requestOptions = {
           method: 'POST',
