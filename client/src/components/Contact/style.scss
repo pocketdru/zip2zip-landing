@@ -1,9 +1,13 @@
 @import "../../main.scss";
-
+@media (max-width: 769px) {
+    .contact-background .card-deck {
+        display: flex;
+        flex: unset;
+    }
+}
 .contact-background {
     background-color: transparent;
 }
-
 #contact {
     margin-top: -3rem;
     background: linear-gradient(-45deg, #479528, #599F3D, #6BAA53, #3F8624);

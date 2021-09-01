@@ -1,3 +1,7 @@
+@media (max-width: 769px) {
+  .contact-background .card-deck {
+    display: flex;
+    flex: unset; } }
 .contact-background {
   background-color: transparent; }
 
