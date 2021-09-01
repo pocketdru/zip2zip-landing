@@ -11,9 +11,14 @@
     margin-top: 0.75rem;
     margin-bottom: 0.75rem; } }
 @media (max-width: 769px) {
+  .galleryMini .card {
+    margin-top: 0rem;
+    margin-bottom: 0rem; }
+
   .galleryMini .card-deck {
     margin-top: 0rem;
-    margin-left: 0rem; } }
+    margin-left: 0rem;
+    display: flex; } }
 .galleryMini .card {
   border: none; }
 .galleryMini .card-background {

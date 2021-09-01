@@ -17,9 +17,14 @@
         }
     }
     @media (max-width: 769px) {
+        .galleryMini .card {
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+        }
         .galleryMini .card-deck {
         margin-top: 0rem;
            margin-left: 0rem; 
+           display: flex;
         }
     }
 
