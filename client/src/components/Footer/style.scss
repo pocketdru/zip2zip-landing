@@ -1,5 +1,9 @@
 @import "../../main.scss";
-
+@media (max-width: 769px) {
+    .footer .align-items-end {
+        flex-wrap: nowrap   ;
+    }
+}
 .footer {
     background-color: #479528;
     .nav .nav-link, .nav-item {
