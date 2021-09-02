@@ -16,14 +16,14 @@ function Faq () {
                             <div className="card bg-dark text-white">
                                 <img src={Truck1} className="card-img" alt="..."/>
                                 <div className="card-img-overlay">
-                                    <h5 className="card-title mt-5">How do I get a quote for shipping?</h5>
+                                    <h5 className="card-title">How do I get a quote for shipping?</h5>
                                     <button className="btn d-block mx-auto">See more</button>
                                 </div>
                             </div>
                             <div className="card bg-dark text-white">
                                 <img src={Truck2} className="card-img" alt="..."/>
                                 <div className="card-img-overlay">
-                                    <h5 className="card-title mt-5">How do I pay for my auto shipping?</h5>
+                                    <h5 className="card-title">How do I pay for my auto shipping?</h5>
                                     <button className="btn d-block mx-auto">See more</button>
                                 </div>
                             </div>
@@ -32,25 +32,25 @@ function Faq () {
                 </div>
                 <div className="row">
                     <div className="col-md-12 p-0">
-                        <div className="card-group">
+                        <div className="card-group second-row">
                             <div className="card bg-dark text-white">
                                 <img src={Truck3} className="card-img" alt="..."/>
                                 <div className="card-img-overlay">
-                                    <h5 className="card-title mt-5">Can I pay with my credit card?</h5>
+                                    <h5 className="card-title">Can I pay with my credit card?</h5>
                                     <button className="btn d-block mx-auto">See more</button>
                                 </div>
                             </div>
                             <div className="card bg-dark text-white">
                                 <img src={Truck4} className="card-img" alt="..."/>
                                 <div className="card-img-overlay">
-                                    <h5 className="card-title mt-5">How do I get my car ready for shipment?</h5>
+                                    <h5 className="card-title">How do I get my car ready for shipment?</h5>
                                     <button className="btn d-block mx-auto">See more</button>
                                 </div>
                             </div>
                             <div className="card bg-dark text-white">
                                 <img src={Truck5} className="card-img" alt="..."/>
                                 <div className="card-img-overlay">
-                                    <h5 className="card-title mt-5">Can I ship my vehicle if it isn't running?</h5>
+                                    <h5 className="card-title">Can I ship my vehicle if it isn't running?</h5>
                                     <button className="btn d-block mx-auto">See more</button>
                                 </div>
                             </div>
