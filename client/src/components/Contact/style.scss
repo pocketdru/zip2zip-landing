@@ -3,6 +3,14 @@
     .contact-background .card-deck {
         display: flex;
         flex: unset;
+        .card {
+            flex: auto;
+        }
+    }
+}
+@media (max-width: 514px) {
+    .contact-background .card-deck {
+        flex-wrap: wrap;
     }
 }
 .contact-background {

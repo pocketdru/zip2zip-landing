@@ -1,7 +1,12 @@
 @media (max-width: 769px) {
   .contact-background .card-deck {
     display: flex;
-    flex: unset; } }
+    flex: unset; }
+    .contact-background .card-deck .card {
+      flex: auto; } }
+@media (max-width: 514px) {
+  .contact-background .card-deck {
+    flex-wrap: wrap; } }
 .contact-background {
   background-color: transparent; }
 
