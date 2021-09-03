@@ -14,6 +14,21 @@
     .jumbotron-carousel .jumbotron .text-right h1 {
       font-size: 50px;
       margin-top: 4rem; } }
+  @media (max-width: 376px) {
+    .jumbotron-carousel .container {
+      padding-right: 0px;
+      padding-left: 0px; }
+    .jumbotron-carousel .navbar {
+      padding: .5rem 0.25rem; }
+    .jumbotron-carousel .jumbotron .text-right h1 {
+      font-size: 35px;
+      margin-top: 0rem; }
+    .jumbotron-carousel .jumbotron .text-right p {
+      font-size: 10px; } }
+  @media (max-width: 376px) {
+    .jumbotron-carousel .navbar {
+      padding-right: 1rem;
+      padding-left: 1rem; } }
   .jumbotron-carousel .jumbotron {
     margin-bottom: 0;
     background: none; }

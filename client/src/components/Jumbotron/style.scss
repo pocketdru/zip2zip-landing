@@ -12,6 +12,29 @@
         margin-top: 4rem;
     }
  }
+ @media (max-width: 376px) {
+     .container {
+        padding-right: 0px;
+        padding-left: 0px;
+     }
+     .navbar {
+        padding: .5rem 0.25rem;
+    }
+    .jumbotron .text-right h1 {
+        font-size: 35px;
+        margin-top: 0rem;
+    }
+    .jumbotron .text-right p {
+        font-size: 10px;
+    }
+    
+ }
+ @media (max-width: 376px) {
+    .navbar {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+ }
     padding-bottom: 12rem;
     background-position: center center;
     background-attachment: fixed;
