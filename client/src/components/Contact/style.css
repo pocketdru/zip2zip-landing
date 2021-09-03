@@ -7,6 +7,9 @@
 @media (max-width: 514px) {
   .contact-background .card-deck {
     flex-wrap: wrap; } }
+@media (max-width: 408px) {
+  .card-body {
+    padding: 0.25rem 0rem; } }
 .contact-background {
   background-color: transparent; }
 
