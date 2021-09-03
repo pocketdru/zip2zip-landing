@@ -3,30 +3,33 @@
   color: #f9f8f4;
   text-transform: uppercase;
   font-weight: 700;
-  color: #000000; }
+  color: #000000;
+}
 .fullFaq .nav-item, .fullFaq .nav-item .nav-link {
   font-family: Montserrat;
   color: #f9f8f4;
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
-  font-weight: 500; }
+  font-weight: 500;
+}
 .fullFaq .nav-item .active {
   border-left: 5px solid #599F3D;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+}
 .fullFaq .tab-pane .card-title {
   font-family: Montserrat;
   color: #f9f8f4;
   text-transform: uppercase;
   font-weight: 700;
   background-color: rgba(71, 149, 40, 0.7);
-  padding: 0rem 1rem; }
+  padding: 0rem 1rem;
+}
 .fullFaq .tab-pane .tab-paragraph {
   font-family: "Open Sans";
   font-weight: 300;
   color: #f9f8f4;
   font-size: 13px;
   color: #000000;
-  padding: .5rem 1rem; }
-
-/*# sourceMappingURL=style.css.map */
+  padding: 0.5rem 1rem;
+}

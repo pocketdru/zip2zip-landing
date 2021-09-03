@@ -14,9 +14,13 @@
     }
 }
 @media (max-width: 408px) {
-    .card-body {
+    .contact-background .card-body {
     padding: 0.25rem 0rem;
     }
+}
+.faqPage #contact {
+    height: fit-content;
+    padding-bottom: 2rem;
 }
 .contact-background {
     background-color: transparent;

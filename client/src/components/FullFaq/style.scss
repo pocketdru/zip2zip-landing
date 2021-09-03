@@ -1,7 +1,30 @@
 @import "../../main.scss";
 
 .fullFaq {
-    .tab-content .nav {
-        // display: block;
+    .card-title.text-center {
+        @include Montserrat-title();
+        color: #000000;
+    }
+    .nav-item, .nav-item .nav-link  {
+        @include Montserrat-title();
+        color: #000000;
+        font-weight: 500;
+    }
+
+    .nav-item .active {
+        border-left: 5px solid #599F3D;
+        background-color: #ffffff;
+    }
+    .tab-pane { 
+        .card-title {
+        @include Montserrat-title();
+        background-color: rgba(71, 149, 40, 0.7);
+        padding: 0rem 1rem;
+        }
+        .tab-paragraph {
+            @include Open-Sans-par();
+            color: #000000;
+            padding: .5rem 1rem;
+        }
     }
 }
