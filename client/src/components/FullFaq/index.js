@@ -2,20 +2,24 @@ import React, { Component } from "react";
 import Nav from "react-bootstrap/Nav";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
+import BreadCrumbs from "../BreadCrumbs";
 import "./style.css";
 
 class FullFaq extends Component {
     render () {
     return (
         <section className="fullFaq pb-5">
-           <div className="container pt-5 pb-5">
+           <div className="container pb-5">
                <div className="row">
+                   <div className="col-6 offset-6 col-sm-3 offset-sm-9 col-md-3 offset-md-9 col-lg-3 offset-lg-9">
+                   <BreadCrumbs />
+                   </div>
                    <div className="col-md-12">
                         <h3 className="card-title text-center">FAQs</h3>
                    </div>
                </div>
                <Tab.Container id="left-tabs-example" defaultActiveKey="pricing">
-               <div className="row pt-5">
+               <div className="row pt-4">
                    <div className="col-md-3">
                    <Nav variant="pills" className="flex-column">
                         <Nav.Item>
