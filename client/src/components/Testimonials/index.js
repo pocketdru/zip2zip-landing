@@ -5,7 +5,7 @@ import GoogleIcon from '../../assets/images/testimonials/4.png';
 
 function Testimonials () { 
     return (
-        <section className="testimonials">
+        <section className="testimonials" id="testimonials">
             <div className="container">
                 <div className="row card-deck pt-5 pb-5">
                     <div className="card">

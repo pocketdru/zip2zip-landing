@@ -1,6 +1,11 @@
 @import "../../main.scss";
 
 .fullFaq {
+    @media (max-width: 576px) {
+        .card-title.text-center {
+            margin-top: 2rem;
+        }
+    }
     .card-title.text-center {
         @include Montserrat-title();
         color: #000000;

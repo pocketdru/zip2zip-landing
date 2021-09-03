@@ -5,7 +5,18 @@
   @media (max-width: 376px) {
     .nav-background .container {
       padding-right: 0px;
-      padding-left: 0px; } }
+      padding-left: 0px; }
+    .nav-background .navbar-brand {
+      right: 35%;
+      top: 10px; }
+      .nav-background .navbar-brand img.d-block {
+        margin-top: 0.25rem !important;
+        height: 30px;
+        width: 30px; }
+      .nav-background .navbar-brand a.d-block {
+        font-size: 14px; }
+    .nav-background .navbar-brand.position-absolute {
+      padding: 1rem !important; } }
 
 .nav-background .img {
   width: 100%; }

@@ -16,6 +16,19 @@
      .container {
         padding-right: 0px;
         padding-left: 0px;
+        .offset-3 {
+            margin-left: 11%;
+            .carousel-caption {
+                padding-bottom: 0px;
+                .nav {
+                    flex-direction: column;
+                    margin-top: 1rem;
+                }
+            }
+            .jumbotron .text-right p {
+                display: none;
+            }
+        }
      }
      .navbar {
         padding: .5rem 0.25rem;
@@ -27,13 +40,14 @@
     .jumbotron .text-right p {
         font-size: 10px;
     }
-    
- }
- @media (max-width: 376px) {
-    .navbar {
-        padding-right: 1rem;
-        padding-left: 1rem;
+    .home-mobile{
+        display: none;
     }
+    .btn {
+        font-size: 11px!important;
+        padding: 0.5rem 0.75rem !important;
+    }
+    
  }
     padding-bottom: 12rem;
     background-position: center center;

@@ -15,10 +15,10 @@ export default function QuoteEmail() {
       });
       e.target.reset();
   }
-  var yearOptions = [];
-for (var i = 2022; i > 1899; i--) {
-    yearOptions.push((i));
-}
+//   var yearOptions = [];
+// for (var i = 2022; i > 1899; i--) {
+//     yearOptions.push((i));
+// }
 
 // var cars = [
 //   {make: "Acura", model: ["ILX", "MDX", "NSX", "RDX", "RLX", "TLX"]},
@@ -53,7 +53,7 @@ for (var i = 2022; i > 1899; i--) {
             <input type="tel" name="phone" className="form-control"/>
           </div>
           </div>
-          <div className="form-row">
+          {/* <div className="form-row">
           <div className="form-group col-md-4">
             <label htmlFor="inputState">Vehicle year</label>
             <select id="inputState" className="form-control" name="year">
@@ -63,7 +63,7 @@ for (var i = 2022; i > 1899; i--) {
               })}
             </select>
           </div>
-          </div>
+          </div> */}
           <div className="form-group">
             <label>Year, model, make of the unit you are shipping. Please note all the modifications if you have some.</label>
             <textarea name="message" required/>

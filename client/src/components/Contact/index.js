@@ -37,7 +37,7 @@ function Contact () {
             </div>                    
         </div>
         <div className="card d-flex align-self-center">
-            <button type="button" className="btn m-auto">Request a quote</button>
+            <a type="button" href="#email" className="btn m-auto">Request a quote</a>
         </div>
     </div>
     )

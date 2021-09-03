@@ -26,8 +26,6 @@ class Home extends Component {
                 </div>
             </section>
             <Email/>
-            <Quote />
-            <GalleryMini />
             {/* <Quote/> */}
             <Testimonials/>
             <Faq />

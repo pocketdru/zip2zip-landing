@@ -10,12 +10,10 @@ function Jumbotron() {
             {/* <img className="d-block w-100" src={background} alt="board"/> */}
             <div className="carousel-caption pt-5 mb-5">
                 <nav className="nav navbar">
-                    <li className="nav-link"><a href="/">Home</a></li>
-                    <li className="nav-link"><a href="/">Company</a></li>
-                    <li className="nav-link"><a href="/">GLOBAL COVERAGE</a></li>
-                    <li className="nav-link"><a href="/">News</a></li>
-                    <li className="nav-link"><a href="/">Contact</a></li>
-                    <li className="nav-link"><a className="btn p-3" href="/">REQUEST A QUOTE </a></li>
+                    <li className="nav-link home-mobile"><a href="/">Home</a></li>
+                    <li className="nav-link"><a href="#contact">Contact Us</a></li>
+                    <li className="nav-link"><a href="#testimonials">Testimonials</a></li>
+                    <li className="nav-link"><a className="btn p-3" href="#email">REQUEST A QUOTE </a></li>
                 </nav>
             </div>
             <div className="mt-5 mb-5 text-right">

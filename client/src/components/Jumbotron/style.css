@@ -18,17 +18,27 @@
     .jumbotron-carousel .container {
       padding-right: 0px;
       padding-left: 0px; }
+      .jumbotron-carousel .container .offset-3 {
+        margin-left: 11%; }
+        .jumbotron-carousel .container .offset-3 .carousel-caption {
+          padding-bottom: 0px; }
+          .jumbotron-carousel .container .offset-3 .carousel-caption .nav {
+            flex-direction: column;
+            margin-top: 1rem; }
+        .jumbotron-carousel .container .offset-3 .jumbotron .text-right p {
+          display: none; }
     .jumbotron-carousel .navbar {
       padding: .5rem 0.25rem; }
     .jumbotron-carousel .jumbotron .text-right h1 {
       font-size: 35px;
       margin-top: 0rem; }
     .jumbotron-carousel .jumbotron .text-right p {
-      font-size: 10px; } }
-  @media (max-width: 376px) {
-    .jumbotron-carousel .navbar {
-      padding-right: 1rem;
-      padding-left: 1rem; } }
+      font-size: 10px; }
+    .jumbotron-carousel .home-mobile {
+      display: none; }
+    .jumbotron-carousel .btn {
+      font-size: 11px !important;
+      padding: 0.5rem 0.75rem !important; } }
   .jumbotron-carousel .jumbotron {
     margin-bottom: 0;
     background: none; }

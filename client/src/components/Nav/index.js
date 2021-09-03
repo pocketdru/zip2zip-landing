@@ -16,7 +16,7 @@ function Nav() {
               <a className="flex-sm-fill pt-2 pb-2 d-block" href="/">Top One</a>
           </div>
         </div>
-      <div className="col-md-9 col-lg-9">
+      {/* <div className="col-md-9 col-lg-9">
         <nav className="nav navbar d-flex justify-content-end">
           <a className="nav-link text-sm-center mt-2 mb-3" target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/company/zip-2-zip">
             <FontAwesomeIcon icon={faFacebookF} />
@@ -25,7 +25,7 @@ function Nav() {
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
           </nav>
-      </div>
+      </div> */}
       </div>
     </div> 
     </section> 

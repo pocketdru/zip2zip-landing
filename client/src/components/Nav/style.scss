@@ -6,6 +6,21 @@
            padding-left: 0px;
     }
 
+    .navbar-brand {
+        right: 35%;
+        top: 10px;    
+        img.d-block {
+        margin-top: 0.25rem!important;
+        height: 30px;
+        width: 30px;
+        }
+     a.d-block {
+        font-size: 14px;
+        }
+    }
+    .navbar-brand.position-absolute {
+        padding: 1rem!important;
+    }
 }
     background: transparent;
     position: absolute;
