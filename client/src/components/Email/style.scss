@@ -1,6 +1,12 @@
 @import "../../main.scss";
 
 #email {
+    @media (max-width: 769px) {
+        .container .card-title {
+            font-size: 18px!important;
+            margin-top: 0px!important;
+        }
+    }
     background-color: #ffffff;
     .container {
         background-color: #f4f4f4;

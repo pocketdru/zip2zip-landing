@@ -1,5 +1,9 @@
 #email {
   background-color: #ffffff; }
+  @media (max-width: 769px) {
+    #email .container .card-title {
+      font-size: 18px !important;
+      margin-top: 0px !important; } }
   #email .container {
     background-color: #f4f4f4; }
     #email .container .card-title {

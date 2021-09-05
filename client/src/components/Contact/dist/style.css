@@ -1,3 +1,33 @@
+@media (max-width: 769px) {
+  .contact-background .card-deck {
+    display: flex;
+    flex: unset;
+  }
+  .contact-background .card-deck .card {
+    flex: auto;
+  }
+}
+@media (max-width: 514px) {
+  .contact-background .card-deck {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 408px) {
+  .contact-background .card-deck {
+    margin-left: 18%;
+  }
+  .contact-background .card .card-body {
+    padding: 0rem 0rem !important;
+  }
+  .contact-background .btn {
+    margin: 0% auto 0% 13% !important;
+  }
+}
+.faqPage #contact {
+  height: fit-content;
+  padding-bottom: 2rem;
+}
+
 .contact-background {
   background-color: transparent;
 }
@@ -24,7 +54,7 @@
   float: left;
 }
 #contact .card-body {
-  padding: 1.25rem;
+  padding: 1.25rem 0rem;
 }
 #contact .card, #contact .list-group, #contact .list-group-item {
   background: inherit;
@@ -42,8 +72,11 @@
   font-weight: 300;
   color: #f9f8f4;
   font-size: 13px;
-  padding: 0.75rem 1.25em;
+  padding: 0.75rem 0.75rem;
   font-size: 11px;
+}
+#contact .align-self-center .btn {
+  margin: 0 auto;
 }
 #contact .align-self-center .btn {
   background-color: #599F3D;

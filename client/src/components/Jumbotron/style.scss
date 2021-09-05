@@ -7,9 +7,18 @@
     padding-bottom: 1rem;
 }
 @media (max-width: 769px) {
+    background-position: left top; 
+    background-attachment: scroll;
     .jumbotron .text-right h1 {
-        font-size: 50px;
+        font-size: 30px;
         margin-top: 4rem;
+    }
+    .offset-3 {
+        .carousel-caption {
+            .nav {
+                flex-direction: column;
+            }
+        }
     }
  }
  @media (max-width: 376px) {
@@ -34,8 +43,10 @@
         padding: .5rem 0.25rem;
     }
     .jumbotron .text-right h1 {
-        font-size: 35px;
+        text-align: center;
+        font-size: 15px;
         margin-top: 0rem;
+        margin-right: 0rem!important;
     }
     .jumbotron .text-right p {
         font-size: 10px;
@@ -47,7 +58,11 @@
         font-size: 11px!important;
         padding: 0.5rem 0.75rem !important;
     }
-    
+ }
+ @media (max-width: 321px) {
+    .nav-background .navbar-brand {
+        right: 33%;
+    }
  }
     padding-bottom: 12rem;
     background-position: center center;

@@ -14,9 +14,18 @@
     }
 }
 @media (max-width: 408px) {
-    .contact-background .card-body {
-    padding: 0.25rem 0rem;
+    .contact-background {
+        .card-deck {
+            margin-left: 18%;
+        }
+        .card .card-body {
+            padding: 0rem 0rem!important;
     }
+        .btn {
+            margin: 0% auto 0% 13%!important;
+        }
+    }
+
 }
 .faqPage #contact {
     height: fit-content;
@@ -64,6 +73,9 @@
         }
     }
     .align-self-center{
+        .btn {
+            margin: 0 auto;
+        }
         @include btn();
     }
 }
