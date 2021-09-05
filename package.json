@@ -19,7 +19,8 @@
     "express": "^4.17.1",
     "production": "0.0.2",
     "react-bootstrap": "^2.0.0-beta.4",
-    "react-script-tag": "^1.1.2"
+    "react-script-tag": "^1.1.2",
+    "serve": "^12.0.0"
   },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
