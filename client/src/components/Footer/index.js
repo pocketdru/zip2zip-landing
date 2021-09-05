@@ -13,7 +13,7 @@ function Footer() {
                     <div className="col-md-4">
                         <ul className="nav flex-column">
                             <li className="nav-item">
-                                <a className="nav-link active" href="#faq">FAQs</a>
+                                <a className="nav-link active" href="/faq#left-tabs-tab-pricing">FAQs</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" href="#email">Request a quote</a>

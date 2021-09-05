@@ -73,6 +73,9 @@
             text-align: center;
             @include Montserrat-title();
         }
+        .btn {
+            width: fit-content;
+        }
         @include btn;
     }
 }

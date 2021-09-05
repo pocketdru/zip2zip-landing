@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 import logo from "../../assets/images/nav/logo.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+// import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 function Nav() {
   return (

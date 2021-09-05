@@ -108,7 +108,7 @@
   font-weight: 300;
   color: #f9f8f4;
   font-size: 13px;
-  font-size: 60px;
+  font-size: 40px;
   margin-top: 8rem;
 }
 .jumbotron-carousel .text-right p {
@@ -117,5 +117,5 @@
   color: #f9f8f4;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 13px;
 }

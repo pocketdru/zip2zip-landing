@@ -18,9 +18,9 @@ function Jumbotron() {
             </div>
             <div className="mt-5 mb-5 text-right">
                 <h1 className="mr-5">
-                  Right choice – right move.
+                  Right choice – right move
                 </h1>
-                <p>WE DELIVER YOUR PACKAGE IN NO-TIME </p> 
+                <p>We are small family owned company that treats you like family</p> 
             </div>
           </div>
           </div>

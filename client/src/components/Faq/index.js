@@ -17,14 +17,14 @@ function Faq () {
                                 <img src={Truck1} className="card-img" alt="..."/>
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">How do I get a quote for shipping?</h5>
-                                    <button className="btn d-block mx-auto">See more</button>
+                                    <a className="btn d-block mx-auto" href="/faq#left-tabs-tab-pricing">See more</a>
                                 </div>
                             </div>
                             <div className="card bg-dark text-white">
                                 <img src={Truck2} className="card-img" alt="..."/>
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">How do I pay for my auto shipping?</h5>
-                                    <button className="btn d-block mx-auto">See more</button>
+                                    <a className="btn d-block mx-auto" href="/faq#uncontrolled-tab-tab-pricing">See more</a>
                                 </div>
                             </div>
                         </div>
@@ -37,21 +37,21 @@ function Faq () {
                                 <img src={Truck3} className="card-img" alt="..."/>
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">Can I pay with my credit card?</h5>
-                                    <button className="btn d-block mx-auto">See more</button>
+                                    <a className="btn d-block mx-auto" href="/faq#credit-ancor-tab-pricing">See more</a>
                                 </div>
                             </div>
                             <div className="card bg-dark text-white">
                                 <img src={Truck4} className="card-img" alt="..."/>
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">How do I get my car ready for shipment?</h5>
-                                    <button className="btn d-block mx-auto">See more</button>
+                                    <a className="btn d-block mx-auto" href="/faq#left-tabs-tab-vehicle">See more</a>
                                 </div>
                             </div>
                             <div className="card bg-dark text-white">
                                 <img src={Truck5} className="card-img" alt="..."/>
                                 <div className="card-img-overlay">
                                     <h5 className="card-title">Can I ship my vehicle if it isn't running?</h5>
-                                    <button className="btn d-block mx-auto">See more</button>
+                                    <a className="btn d-block mx-auto" href="/faq#left-tabs-tab-vehicle">See more</a>
                                 </div>
                             </div>
                         </div>
