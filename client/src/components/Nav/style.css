@@ -11,12 +11,15 @@
       top: 10px; }
       .nav-background .navbar-brand img.d-block {
         margin-top: 0.25rem !important;
-        height: 30px;
-        width: 30px; }
+        height: 55px;
+        width: 55px; }
       .nav-background .navbar-brand a.d-block {
+        line-height: 16px;
         font-size: 14px; }
+        .nav-background .navbar-brand a.d-block span.transportation {
+          font-size: 50%; }
     .nav-background .navbar-brand.position-absolute {
-      padding: 1rem !important; } }
+      padding: 0.5rem 1rem 0rem 1rem !important; } }
 
 .nav-background .img {
   width: 100%; }
@@ -31,6 +34,8 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 24px; }
+  .nav-background .navbar-brand a span.transportation {
+    font-size: 50%; }
 
 .svg-inline--fa {
   color: #ffffff; }

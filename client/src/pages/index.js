@@ -16,6 +16,7 @@ class Home extends Component {
         <div>
             <Nav/>
             <Jumbotron/>
+            <Email/>
             <section className="contact-background">
                 <div className="container" id="contact">
                     <div className="row">
@@ -25,7 +26,6 @@ class Home extends Component {
                     </div>
                 </div>
             </section>
-            <Email/>
             {/* <Quote/> */}
             <Testimonials/>
             <Faq />

@@ -13,7 +13,7 @@ function Nav() {
         <div className="col-12 col-sm-12 col-md-12 col-lg-12">
           <div className="navbar-brand position-absolute p-4" href="/">
               <img src={logo} width="50" height="50"  className="d-block align-top ml-auto mr-auto mt-3" alt="" loading="lazy"/>
-              <a className="flex-sm-fill pt-2 pb-2 d-block" href="/">Top One</a>
+              <a className="flex-sm-fill pt-2 pb-2 d-block" href="/">Top One<br/><span className="transportation">Transportation</span></a>
           </div>
         </div>
       {/* <div className="col-md-9 col-lg-9">
