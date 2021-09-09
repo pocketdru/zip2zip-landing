@@ -1,10 +1,10 @@
 @import "../../main.scss";
 .jumbotron-carousel {
+    @media (max-width: 1441px) {
+        padding-bottom: 11rem;
+    }
 @media (max-width: 992px) {
-    padding-bottom: 9rem;
-}
-@media (max-width: 1441px) {
-    padding-bottom: 1rem;
+    padding-bottom: 10rem;
 }
 @media (max-width: 769px) {
     background-position: left top; 

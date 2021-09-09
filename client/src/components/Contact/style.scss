@@ -1,32 +1,4 @@
 @import "../../main.scss";
-@media (max-width: 769px) {
-    .contact-background .card-deck {
-        display: flex;
-        flex: unset;
-        .card {
-            flex: auto;
-        }
-    }
-}   
-@media (max-width: 514px) {
-    .contact-background .card-deck {
-        flex-wrap: wrap;
-    }
-}
-@media (max-width: 408px) {
-    .contact-background {
-        .card-deck {
-            margin-left: 18%;
-        }
-        .card .card-body {
-            padding: 0rem 0rem!important;
-    }
-        .btn {
-            margin: 0% auto 0% 13%!important;
-        }
-    }
-
-}
 .faqPage #contact {
     height: fit-content;
     padding-bottom: 2rem;
@@ -78,4 +50,43 @@
         }
         @include btn();
     }
+}
+@media (max-width: 769px) {
+    .contact-background .card-deck {
+        display: flex;
+        flex: unset;
+        .card {
+            flex: auto;
+        }
+    }
+}   
+@media (max-width: 514px) {
+    .contact-background .card-deck {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 408px) {
+    .contact-background #contact {
+    
+        .card-deck {
+            padding-top: 0.5rem;
+            margin-left: 18%;
+        }
+        .card .card-body {
+            padding: 0rem 0rem;
+    }
+        .btn {
+            margin: 0% auto 0% 13%;
+        }
+        .card-body .list-group {
+            #header {
+            font-size: 11px;
+         }   
+         .list-group-item {
+             font-size: 9px;
+             padding: .5rem 1.25rem;
+         }
+}
+    }
+
 }

@@ -31,7 +31,7 @@ export default function QuoteEmail() {
 // ]
   return (
     <section id="email">
-      <div className="container pt-5 pb-5">
+      <div className="container pt-4 pb-5">
         <div className="row">
           <div className="col-md-12">
             <h5 className="card-title mt-5 mb-5">REQUEST A QUICK QUOTE</h5>
