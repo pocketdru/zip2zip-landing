@@ -13,6 +13,9 @@
         font-size: 30px;
         margin-top: 4rem;
     }
+    .home-mobile{
+        display: none;
+    }
     .offset-3 {
         .carousel-caption {
             .nav {
@@ -50,9 +53,6 @@
     }
     .jumbotron .text-right p {
         font-size: 10px;
-    }
-    .home-mobile{
-        display: none;
     }
     .btn {
         font-size: 11px!important;

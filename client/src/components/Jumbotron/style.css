@@ -4,12 +4,12 @@
   background-attachment: fixed;
   background-size: cover;
   background-image: url("../../assets/images/jumbotron/2.jpeg"); }
-  @media (max-width: 992px) {
-    .jumbotron-carousel {
-      padding-bottom: 9rem; } }
   @media (max-width: 1441px) {
     .jumbotron-carousel {
-      padding-bottom: 1rem; } }
+      padding-bottom: 11rem; } }
+  @media (max-width: 992px) {
+    .jumbotron-carousel {
+      padding-bottom: 10rem; } }
   @media (max-width: 769px) {
     .jumbotron-carousel {
       background-position: left top;
@@ -17,6 +17,8 @@
       .jumbotron-carousel .jumbotron .text-right h1 {
         font-size: 30px;
         margin-top: 4rem; }
+      .jumbotron-carousel .home-mobile {
+        display: none; }
       .jumbotron-carousel .offset-3 .carousel-caption .nav {
         flex-direction: column; } }
   @media (max-width: 376px) {
@@ -41,8 +43,6 @@
       margin-right: 0rem !important; }
     .jumbotron-carousel .jumbotron .text-right p {
       font-size: 10px; }
-    .jumbotron-carousel .home-mobile {
-      display: none; }
     .jumbotron-carousel .btn {
       font-size: 11px !important;
       padding: 0.5rem 0.75rem !important; } }
