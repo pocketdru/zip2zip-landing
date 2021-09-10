@@ -1,57 +1,47 @@
 @import "../../main.scss";
 .nav-background {
-    @media (max-width: 376px) {
-        .container {
-           padding-right: 0px;
-           padding-left: 0px;
-    }
-
-    .navbar-brand {
-        right: 35%;
-        top: 10px;    
-        img.d-block {
-        margin-top: 0.25rem!important;
-        height: 55px;
-        width: 55px;
-        }
-     a.d-block {
-        line-height: 16px;
-        font-size: 14px;
-        span.transportation {
-            font-size: 50%;
-        }
-        }
-    }
-    .navbar-brand.position-absolute {
-        padding: 0.5rem 1rem 0rem 1rem!important;
-    }
-}
     background: transparent;
     position: absolute;
     width: 100%;
-}
-
-.nav-background .img {
-    width: 100%;
-}
-
-.nav-background .navbar-brand {
-    background-color: rgba(71, 149, 40, 0.7);
-    z-index: 15;
-}
-
-.nav-background .navbar-brand a {
-    @include Montserrat-title();
-    font-size: 24px;
-    span.transportation {
-        font-size: 50%;
+    .img {
+        width: 100%;
     }
-}
-
-.svg-inline--fa {
-    color: #ffffff;
-}
-
-.nav-background .nav .nav-link:hover .svg-inline--fa{
-    color: #0d5195;
+    .navbar-brand {
+        background-color: rgba(71, 149, 40, 0.7);
+        z-index: 15;
+    }
+    .navbar-brand a {
+        @include Montserrat-title();
+        font-size: 24px;
+        span.transportation {
+            font-size: 50%;
+        }
+    }
+    @media (max-width: 414px) {
+        img.d-block {
+            margin-top: 0.25rem!important;
+            height: 55px;
+            width: 55px;
+        }
+        .navbar-brand.position-absolute {
+            padding: 0.5rem 1rem 0rem 1rem!important;
+        }
+    }
+    @media (max-width: 376px) {
+        .container {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+        .navbar-brand {
+            right: 35%;
+            top: 10px;    
+        a.d-block {
+            line-height: 16px;
+            font-size: 14px;
+            span.transportation {
+                font-size: 50%;
+            }
+            }
+        }
+    }
 }

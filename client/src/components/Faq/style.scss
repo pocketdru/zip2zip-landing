@@ -61,6 +61,17 @@
             font-size: 0.75rem;
         }
     }
+    .btn {
+        padding: 2px 5px!important;
+    }
+}
+@media (max-width: 375px) {
+    .card-group {
+    .card-title {
+        margin-top: 0.75rem;
+        font-size: 0.75rem;
+    }
+}
 }
     background-color: #f4f4f4;
     .card, .card-group, .card-img {

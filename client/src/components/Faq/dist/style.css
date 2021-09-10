@@ -59,6 +59,15 @@
     margin-top: 0rem;
     font-size: 0.75rem;
   }
+  #faq .btn {
+    padding: 2px 5px !important;
+  }
+}
+@media (max-width: 375px) {
+  #faq .card-group .card-title {
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+  }
 }
 #faq .card, #faq .card-group, #faq .card-img {
   border: none;
