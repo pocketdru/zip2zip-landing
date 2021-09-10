@@ -19,7 +19,9 @@
     background-position: 0% 50%; } }
   #contact .card .img-fluid {
     padding-top: 0.75rem;
-    float: left; }
+    float: left;
+    opacity: 0.6;
+    width: 15%; }
   #contact .card-body {
     padding: 1.25rem 0rem; }
   #contact .card, #contact .list-group, #contact .list-group-item {

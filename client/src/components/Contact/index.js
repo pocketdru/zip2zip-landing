@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-import Hours from '../../assets/images/contact/Layer_3.png'; 
-import Call from '../../assets/images/contact/Layer_4.png';
-import Email from '../../assets/images/contact/Layer_5.png'; 
+import Hours from '../../assets/images/contact/clock-timing.png'; 
+import Call from '../../assets/images/contact/customer-service.png';
+import Email from '../../assets/images/contact/email-address.png'; 
 
 function Contact () {
     return (
