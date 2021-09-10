@@ -62,7 +62,7 @@
         flex-direction: column; } }
   @media (max-width: 414px) {
     .jumbotron-carousel {
-      background-position: 21% -50%;
+      background-position: 20% -10%;
       background-size: 184%; }
       .jumbotron-carousel .jumbotron {
         padding-bottom: 0.25rem !important; }
