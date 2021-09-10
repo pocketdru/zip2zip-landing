@@ -40,7 +40,6 @@
     padding-bottom: 4rem;
 }
 @media (max-width: 769px) {
-    background-position: 23% -70%;
     padding-bottom: 0rem;
     .jumbotron .text-right h1 {
         font-size: 30px;
@@ -58,8 +57,8 @@
     }
  }
  @media (max-width: 414px) {
-    background-position: 20% -10%;
-    background-size: 184%;
+    background-position: center;
+    background-image: url("../../assets/images/jumbotron/mobile-1.jpg");
      .jumbotron {
          padding-bottom: 0.25rem!important;
      }
