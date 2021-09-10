@@ -1,20 +1,26 @@
 @import "../../main.scss";
 @media (max-width: 992px) {
     .testimonials .card-deck {
-        .card {
-            width: 40%;
-            flex: auto;
+        .card-body .card-text {
+
+            font-size: 11px;
         }
     }
 }
 @media (max-width: 576px) {
     .testimonials .card-deck {
-        .card {
-            width: 51%;
-            flex: auto;
+        .slider .card {
+            padding: 10px;
+        }
+        .card-body .card-text {
+            font-size: 9px;
+        }
+        .font-weight-bold {
+            font-size: 9px;
         }
     }
 }
+
 .testimonials {
     background-color: #f4f4f4;
     .card {
@@ -32,7 +38,7 @@
         .font-weight-bold {
             @include Montserrat-title();
             color: #000000;
-            font-size: 14px;
+            font-size: 12px;
         }
     .slider-wrapper {
         display: flex;

@@ -16,26 +16,26 @@ function Testimonials () {
                                     <div className="card-body">
                                         <p className="card-text">We use them every year for transporting our vehicles. Always on time and never any hassle. <span className="font-weight-bold">Great</span> group to work with.</p>
                                     </div>
-                                    <p className="card-text font-weight-bold">Mark H</p>
+                                    <p className="card-text font-weight-bold">Mark H - Denver, CO</p>
                                 </div>
                                 <div className="card slider-text-2">
                                     <div className="card-body">
                                         <p className="card-text">Great and friendly company everything was very  professionally taken care off...</p>
                                     </div>
-                                    <p className="card-text font-weight-bold">Dima P</p>
+                                    <p className="card-text font-weight-bold">Dima P - Jacksonville, FL</p>
                                 </div>
                                 <div className="card slider-text-3">
                                     <div className="card-body">
                                         <p className="card-text">Very reliable company. Alex the driver is punctual and professional. A+ for the company and services they provided.I will definitely have business with Top One again!</p>
                                     </div>
-                                    <p className="card-text font-weight-bold">Maxim G</p>
+                                    <p className="card-text font-weight-bold">Maxim G - Burbank, CA</p>
                                 </div>
                                 <div className="card slider-text-3">
                                     <div className="card-body">
                                         <p className="card-text"><span className="font-weight-bold">Positive:</span><span className="font-italic"> Professionalism, Punctuality, Quality</span><br/>
                                         Great costumer service! Keep up the good work!</p>
                                     </div>
-                                    <p className="card-text font-weight-bold">Tempus Logix</p>
+                                    <p className="card-text font-weight-bold">Tempus Logix - Tujunga, CA</p>
                                 </div>                         
                             </div>
                         </div>
