@@ -5,7 +5,19 @@
   position: static;
 }
 
-.fullFaq .container {
+.siteMap .container {
   background-color: #f9f8f4;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.siteMap .container #contact {
+  margin-top: 0rem;
+}
+.siteMap .container #contact .card-deck {
+  display: block;
+}
+@media (max-width: 640px) {
+  .siteMap .container #contact .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

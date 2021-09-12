@@ -121,40 +121,6 @@
     padding-top: 0.5rem;
   }
   #contact .card .card-body {
-    padding: 0rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .faqPage .siteMap .container #contact .card-deck {
-    display: flex;
-  }
-  .faqPage .siteMap .container #contact .card-deck .card {
-    flex: auto;
-  }
-}
-@media (max-width: 575px) {
-  .faqPage .siteMap .container #contact .card-deck {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-@media (max-width: 408px) {
-  .faqPage .siteMap #contact .card-deck {
-    padding-top: 0.5rem;
-    margin-left: 18%;
-  }
-  .faqPage .siteMap #contact .card-deck .btn {
-    margin: 0% auto 0% 13%;
-  }
-  .faqPage .siteMap #contact .card-deck .card .card-body {
-    padding: 0rem 0rem;
-  }
-  .faqPage .siteMap #contact .card-deck .card-body .list-group #header {
-    font-size: 11px;
-  }
-  .faqPage .siteMap #contact .card-deck .card-body .list-group .list-group-item {
-    font-size: 9px;
-    padding: 0.5rem 1.25rem;
+    padding: 0rem 0rem 0rem 0rem;
   }
 }

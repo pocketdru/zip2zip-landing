@@ -16,4 +16,11 @@
             display: block;
         }
     }
+    @media (max-width: 640px) {
+        #contact .card-deck {
+            display: flex;
+            flex-wrap: wrap;
+        }    
+    }
 }
+

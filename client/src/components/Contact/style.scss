@@ -110,48 +110,48 @@
                 padding-top: 0.5rem;
             }
             .card .card-body {
-                padding: 0rem;
+                padding: 0rem 0rem 0rem 0rem;
         }
         }
 }
 .faqPage .siteMap {
-    @media (max-width: 767px) {
-        .container #contact {
-            .card-deck {
-                display: flex;
-                .card {
-                    flex: auto;
-                }
-            }
-        }
-    }
-    @media (max-width: 575px) {
-        .container #contact {
-            .card-deck {
-                display: flex;
-                flex-wrap: wrap;
-            }
-        }
-    }
-    @media (max-width: 408px) {
-        #contact .card-deck {
-        padding-top: 0.5rem;
-        margin-left: 18%;
-        .btn {
-            margin: 0% auto 0% 13%;
-        }
-        .card .card-body {
-            padding: 0rem 0rem;
-    }
-        .card-body .list-group {
-            #header {
-            font-size: 11px;
-         }   
-         .list-group-item {
-             font-size: 9px;
-             padding: .5rem 1.25rem;
-         }
-     }
-    }
-}
+//     @media (max-width: 767px) {
+//         .container #contact {
+//             .card-deck {
+//                 display: flex;
+//                 .card {
+//                     flex: auto;
+//                 }
+//             }
+//         }
+//     }
+//     @media (max-width: 575px) {
+//         .container #contact {
+//             .card-deck {
+//                 display: flex;
+//                 flex-wrap: wrap;
+//             }
+//         }
+//     }
+//     @media (max-width: 408px) {
+//         #contact .card-deck {
+//         padding-top: 0.5rem;
+//         margin-left: 18%;
+//         .btn {
+//             margin: 0% auto 0% 13%;
+//         }
+//         .card .card-body {
+//             padding: 0rem 0rem;
+//     }
+//         .card-body .list-group {
+//             #header {
+//             font-size: 11px;
+//          }   
+//          .list-group-item {
+//              font-size: 9px;
+//              padding: .5rem 1.25rem;
+//          }
+//      }
+//     }
+// }
 }

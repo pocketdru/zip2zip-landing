@@ -10,5 +10,9 @@
     margin-top: 0rem; }
     .siteMap .container #contact .card-deck {
       display: block; }
+  @media (max-width: 640px) {
+    .siteMap .container #contact .card-deck {
+      display: flex;
+      flex-wrap: wrap; } }
 
 /*# sourceMappingURL=style.css.map */

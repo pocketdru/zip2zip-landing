@@ -33,4 +33,15 @@
             padding: .5rem 1rem;
         }
     }
+    @media (max-width: 640px) {
+        .nav-item .nav-link, .tab-pane .card-title {
+            font-size: 0.75rem;
+        }
+        .nav-tabs .nav-link {
+            font-size: 0.5rem;
+        }
+        .tab-pane .tab-paragraph {
+            font-size: 0.5rem;
+        }
+    }
 }
