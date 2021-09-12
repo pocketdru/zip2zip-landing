@@ -27,6 +27,8 @@
 #contact .card .img-fluid {
   padding-top: 0.75rem;
   float: left;
+  opacity: 0.6;
+  width: 15%;
 }
 #contact .card-body {
   padding: 1.25rem 0rem;
@@ -65,40 +67,48 @@
   background-color: #f9f8f4;
   color: #599F3D;
 }
-
 @media (max-width: 769px) {
-  .contact-background .card-deck {
-    display: flex;
-    flex: unset;
+  #contact .card-deck .card .img-fluid {
+    width: 11%;
   }
-  .contact-background .card-deck .card {
-    flex: auto;
+  #contact .card-deck .card-body .list-group #header {
+    font-size: 10px;
+  }
+  #contact .card-deck .card-body .list-group .list-group-item {
+    font-size: 9px;
+    padding: 0.5rem 0.5rem;
+  }
+  #contact .card-deck .btn {
+    font-size: 7px;
   }
 }
-@media (max-width: 514px) {
-  .contact-background .card-deck {
+@media (max-width: 575px) {
+  #contact .card-deck {
+    display: flex;
     flex-wrap: wrap;
   }
+  #contact .card-deck .card {
+    flex: auto;
+    width: 50%;
+  }
+  #contact .card-deck .card .img-fluid {
+    width: 9%;
+  }
+  #contact .card-deck .card .btn {
+    width: inherit;
+    margin: 0;
+  }
 }
-@media (max-width: 408px) {
-  .contact-background #contact .card-deck {
+@media (max-width: 414px) {
+  #contact .card-deck {
     padding-top: 0.5rem;
     margin-left: 18%;
   }
-  .contact-background #contact .card .card-body {
+  #contact .card .card-body {
     padding: 0rem 0rem;
   }
-  .contact-background #contact .btn {
-    margin: 0% auto 0% 13%;
-  }
-  .contact-background #contact .card-body .list-group #header {
-    font-size: 11px;
-  }
-  .contact-background #contact .card-body .list-group .list-group-item {
-    font-size: 9px;
-    padding: 0.5rem 1.25rem;
-  }
 }
+
 @media (max-width: 767px) {
   .faqPage .siteMap .container #contact .card-deck {
     display: flex;
