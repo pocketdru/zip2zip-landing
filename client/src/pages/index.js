@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Nav from "../components/Nav";
 import Jumbotron from "../components/Jumbotron";
 import Contact from "../components/Contact";
+import Advantages from "../components/Advantages";
 import Email from "../components/Email";
 // import Quote from "../components/Quote";
 // import GalleryMini from "../components/GalleryMini";
@@ -26,6 +27,7 @@ class Home extends Component {
                     </div>
                 </div>
             </section>
+            <Advantages />
             {/* <Quote/> */}
             <Testimonials/>
             <Faq />
