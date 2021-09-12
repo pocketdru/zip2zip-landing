@@ -61,7 +61,8 @@
         flex-direction: column; } }
   @media (max-width: 414px) {
     .jumbotron-carousel {
-      background-position: center;
+      background-position: 25% center;
+      background-attachment: scroll;
       background-image: url("../../assets/images/jumbotron/mobile-1.jpg"); }
       .jumbotron-carousel .jumbotron {
         padding-bottom: 0.25rem !important; }

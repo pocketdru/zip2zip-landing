@@ -65,7 +65,6 @@
 }
 @media (max-width: 769px) {
   .jumbotron-carousel {
-    background-position: 23% -70%;
     padding-bottom: 0rem;
   }
   .jumbotron-carousel .jumbotron .text-right h1 {
@@ -81,8 +80,9 @@
 }
 @media (max-width: 414px) {
   .jumbotron-carousel {
-    background-position: 20% -10%;
-    background-size: 184%;
+    background-position: 25% center;
+    background-attachment: scroll;
+    background-image: url("../../assets/images/jumbotron/mobile-1.jpg");
   }
   .jumbotron-carousel .jumbotron {
     padding-bottom: 0.25rem !important;

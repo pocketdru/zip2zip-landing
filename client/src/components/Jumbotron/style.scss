@@ -57,7 +57,8 @@
     }
  }
  @media (max-width: 414px) {
-    background-position: center;
+    background-position: 25% center;
+    background-attachment: scroll;
     background-image: url("../../assets/images/jumbotron/mobile-1.jpg");
      .jumbotron {
          padding-bottom: 0.25rem!important;
