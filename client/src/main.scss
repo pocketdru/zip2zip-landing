@@ -23,3 +23,10 @@
         color: #599F3D;
     }
 }
+
+@mixin Component-title {
+    @include Montserrat-title();
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+}

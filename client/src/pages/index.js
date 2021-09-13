@@ -4,6 +4,7 @@ import Jumbotron from "../components/Jumbotron";
 import Contact from "../components/Contact";
 import Advantages from "../components/Advantages";
 import Email from "../components/Email";
+import Steps from "../components/Steps";
 // import Quote from "../components/Quote";
 // import GalleryMini from "../components/GalleryMini";
 import Testimonials from "../components/Testimonials";
@@ -28,6 +29,7 @@ class Home extends Component {
                 </div>
             </section>
             <Advantages />
+            <Steps />
             {/* <Quote/> */}
             <Testimonials/>
             <Faq />
