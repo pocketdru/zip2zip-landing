@@ -23,8 +23,8 @@ function Steps () {
                             <div className="col-8 col-md-8">
                                 <div className="card-body">
                                 <p className="card-text"><small className="text-muted">Step 1</small></p>
-                                    <h5 className="card-title">Instant Car Shipping Quote</h5>
-                                    <p className="card-text">Begin by getting an instant quote by <a href="#email" className="link">sending us an email</a> with all vehicle details, or by speaking with a car shipping specialist at (303) 353-8362.</p>
+                                    <h5 className="card-title">Car Shipping Quote</h5>
+                                    <p className="card-text">Begin by getting an instant quote by <a href="/#email" className="link">sending us an email</a> with all vehicle details, or by speaking with a car shipping specialist at (303) 353-8362.</p>
                                     <div className="details">
                                         <p className="card-text fw-bold">Secure Online Shipment Reservation</p>
                                         <p className="card-text">

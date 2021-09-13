@@ -8,6 +8,7 @@
         height: 100%;
     }
     .card {
+        overflow: hidden;
         border: none;
         padding: 0rem 2rem 2rem 0rem;
         .card-body {
@@ -24,6 +25,7 @@
             color: #969696;
         }
         .img-fluid {
+            overflow: hidden;
             display: block;
             margin: 0 auto;
             padding-top: 1.25rem;

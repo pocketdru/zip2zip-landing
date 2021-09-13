@@ -11,6 +11,7 @@ function Jumbotron() {
                 <nav className="nav navbar">
                     <li className="nav-link home-mobile"><a href="/">Home</a></li>
                     <li className="nav-link"><a href="#contact">Contact Us</a></li>
+                    <li className="nav-link"><a href="/faq">FAQs</a></li>
                     <li className="nav-link"><a href="#testimonials">Testimonials</a></li>
                     <li className="nav-link"><a className="btn p-3" href="#email">REQUEST A QUOTE </a></li>
                 </nav>
