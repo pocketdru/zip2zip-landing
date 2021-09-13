@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Tire from '../../assets/images/service/car-tire-wheel.png'; 
 
 function Services () {
     return (
@@ -15,7 +16,8 @@ function Services () {
                             <div className="card-body">
                             <h5 className="card-title">Open Carrier Car Shipping</h5>
                             <p className="card-text">Open car transport is the most popular and economical of our vehicle shipping services. With open carrier car shipping, your vehicle will be shipped door-to-door on an open trailer car carrier - most commonly seen on highways and delivering to dealerships across the country.</p>
-                            <p className="card-text"><small className="dollars">$$</small></p>
+                            <p className="card-text dollars"><small className="dollars">$$</small></p>
+                            <img className="tire" src={Tire}/>
                             </div>
                         </div>
                         <div className="card">

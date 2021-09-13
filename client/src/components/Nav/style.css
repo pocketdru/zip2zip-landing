@@ -2,8 +2,11 @@
   background: transparent;
   position: absolute;
   width: 100%; }
-  .nav-background .img {
-    width: 100%; }
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
   .nav-background .navbar-brand {
     background-color: rgba(71, 149, 40, 0.7);
     z-index: 15; }

@@ -29,7 +29,12 @@
         color: #000;
     }
     .dollars {
+        display: inline;
         color: #599F3D;
+    }
+    .tire {
+        width: 35px;
+        height: auto;
     }
     @media (max-width: 640px) {
         .card-body {

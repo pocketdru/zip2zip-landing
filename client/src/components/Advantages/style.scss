@@ -12,15 +12,17 @@
         border: none;
         padding: 0rem 2rem 2rem 0rem;
         .card-body {
+            overflow: hidden;
             border-bottom: 1px dotted #969696;
             height: 100%;
         }
         .card-title {
+            overflow: hidden;
             @include Montserrat-title();
             color: #969696;
-
         }
         .card-text {
+            overflow: hidden;
             @include Open-Sans-par();
             color: #969696;
         }

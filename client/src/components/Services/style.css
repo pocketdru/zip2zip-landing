@@ -33,7 +33,11 @@
     font-size: 13px;
     color: #000; }
   .services .dollars {
+    display: inline;
     color: #599F3D; }
+  .services .tire {
+    width: 35px;
+    height: auto; }
   @media (max-width: 640px) {
     .services .card-body {
       padding: 0.5rem; } }
