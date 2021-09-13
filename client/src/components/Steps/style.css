@@ -9,6 +9,7 @@
     font-size: 24px;
     text-align: center; }
   .steps .card {
+    overflow: hidden;
     background-color: inherit;
     border: none; }
   .steps .card-title {
@@ -32,5 +33,14 @@
   .steps .img-fluid {
     padding-top: 2rem;
     width: 80%; }
+  .steps .link {
+    color: #599F3D; }
+  @media (max-width: 769px) {
+    .steps .card-body {
+      padding: 0.25rem; }
+    .steps .card-title {
+      font-size: 11px; }
+    .steps .card-text {
+      font-size: 9px; } }
 
 /*# sourceMappingURL=style.css.map */

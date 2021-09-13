@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import Car from '../../assets/images/advantages/car-insurance.png'; 
 import Money from '../../assets/images/advantages/money-saving.png';
@@ -6,9 +6,13 @@ import Map from '../../assets/images/advantages/road-map.png';
 import Rating from '../../assets/images/advantages/star-rating.png';
 import Us from '../../assets/images/advantages/about-us.png';
 import Personal from '../../assets/images/advantages/young.png';
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Advantages () {
+    useEffect(() => {
+        Aos.init({duration: 1000});
+    }, []);
         return (
         <section className="advantages pt-5 pb-5 ">
             <div className="container cards">
@@ -16,7 +20,7 @@ function Advantages () {
                 <div className="card">
                     <div className="row g-0">
                         <div className="col-md-3">
-                        <img src={Rating} className="img-fluid rounded-start" alt="rating"/>
+                        <img src={Rating} className="img-fluid rounded-start" data-aos="flip-left" alt="rating"/>
                         </div>
                         <div className="col-md-9">
                         <div className="card-body">
@@ -30,7 +34,7 @@ function Advantages () {
                 <div className="card">
                     <div className="row g-0">
                         <div className="col-md-3">
-                        <img src={Map} className="img-fluid rounded-start" alt="map"/>
+                        <img src={Map} className="img-fluid rounded-start" data-aos="flip-left" alt="map"/>
                         </div>
                         <div className="col-md-9">
                         <div className="card-body">
@@ -45,7 +49,7 @@ function Advantages () {
                     <div className="card">
                         <div className="row g-0">
                             <div className="col-md-3">
-                            <img src={Car} className="img-fluid rounded-start" alt="car"/>
+                            <img src={Car} className="img-fluid rounded-start" data-aos="flip-left" alt="car"/>
                             </div>
                             <div className="col-md-9">
                             <div className="card-body">
@@ -58,7 +62,7 @@ function Advantages () {
                 <div className="card">
                     <div className="row g-0">
                         <div className="col-md-3">
-                        <img src={Money} className="img-fluid rounded-start" alt="money"/>
+                        <img src={Money} className="img-fluid rounded-start" data-aos="flip-left" alt="money"/>
                         </div>
                         <div className="col-md-9">
                         <div className="card-body">
@@ -73,7 +77,7 @@ function Advantages () {
                 <div className="card">
                     <div className="row g-0">
                         <div className="col-md-3">
-                        <img src={Us} className="img-fluid rounded-start" alt="money"/>
+                        <img src={Us} className="img-fluid rounded-start" data-aos="flip-left" alt="money"/>
                         </div>
                         <div className="col-md-9">
                         <div className="card-body">
@@ -86,7 +90,7 @@ function Advantages () {
                 <div className="card">
                     <div className="row g-0">
                         <div className="col-md-3">
-                        <img src={Personal} className="img-fluid rounded-start" alt="money"/>
+                        <img src={Personal} className="img-fluid rounded-start" data-aos="flip-left" alt="money"/>
                         </div>
                         <div className="col-md-9">
                         <div className="card-body">

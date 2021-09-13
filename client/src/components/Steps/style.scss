@@ -6,6 +6,7 @@
         @include Component-title();
     }
     .card {
+        overflow: hidden;
         background-color: inherit;
         border: none;
     }
@@ -28,5 +29,19 @@
     .img-fluid {
         padding-top: 2rem;
         width: 80%;
+    }
+    .link {
+        color: #599F3D;
+    }
+    @media (max-width: 769px) {
+        .card-body {
+            padding: 0.25rem;
+        }
+        .card-title {
+            font-size: 11px;
+         }
+         .card-text {
+             font-size: 9px;
+         }
     }
 }
