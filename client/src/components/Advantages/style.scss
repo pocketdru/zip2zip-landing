@@ -1,1 +1,47 @@
 @import "../../main.scss";
+
+.advantages {
+    .cards {
+        border: 5px double #599F3D;
+    }
+    .g-0 {
+        height: 100%;
+    }
+    .card {
+        border: none;
+        padding: 0rem 2rem 2rem 0rem;
+        .card-body {
+            border-bottom: 1px dotted #969696;
+            height: 100%;
+        }
+        .card-title {
+            @include Montserrat-title();
+            color: #969696;
+
+        }
+        .card-text {
+            @include Open-Sans-par();
+            color: #969696;
+        }
+        .img-fluid {
+            display: block;
+            margin: 0 auto;
+            padding-top: 1.25rem;
+            width: 50%;
+        }
+    }
+    @media (max-width: 769px) {
+        .card {
+        padding: 0rem 0.5rem 1rem 0.5rem;
+        }
+        .cards .img-fluid {
+            width: 20%;
+        }
+        .card-title {
+           font-size: 10px;
+        }
+        .card-text {
+            font-size: 8px;
+        }
+    }
+}
