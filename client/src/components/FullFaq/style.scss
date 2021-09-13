@@ -6,7 +6,8 @@
             margin-top: 2rem;
         }
     }
-    .card-title.text-center {
+    .card-title.title {
+        text-align: center;
         margin-top: 3rem;
         @include Montserrat-title();
         color: #000000;
@@ -43,5 +44,15 @@
         .tab-pane .tab-paragraph {
             font-size: 0.5rem;
         }
+    }
+    @media (max-width: 575px) {
+        .card-title.title {
+        text-align: right;
+        }
+    }
+    @media (max-width: 375px) {
+        flex-direction: column;
+        align-content: flex-end;
+
     }
 }

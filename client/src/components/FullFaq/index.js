@@ -11,11 +11,11 @@ class FullFaq extends Component {
         <section className="fullFaq pb-5">
            <div className="container pb-5">
                <div className="row">
-                   <div className="col-6 offset-6 col-sm-3 offset-sm-9 col-md-3 offset-md-9 col-lg-3 offset-lg-9">
+                   <div className="col-4 offset-8 col-sm-4 offset-sm-8 col-md-3 offset-md-9 col-lg-3 offset-lg-9">
                    <BreadCrumbs />
                    </div>
                    <div className="col-md-12">
-                        <h3 className="card-title text-center">FAQs</h3>
+                        <h3 className="card-title title">FAQs</h3>
                    </div>
                </div>
                <Tab.Container id="left-tabs" defaultActiveKey="pricing">

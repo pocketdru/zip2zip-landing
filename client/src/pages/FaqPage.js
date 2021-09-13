@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav";
 import SiteMap from "../components/SiteMap";
+import Steps from "../components/Steps";
 import Footer from "../components/Footer";
 class FaqPage extends Component {
     render() {
@@ -8,6 +9,7 @@ class FaqPage extends Component {
         <div className="faqPage">
             <Nav/>
             <SiteMap />
+            <Steps />
             <Footer />
         </div>
         ) 
