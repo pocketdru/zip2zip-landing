@@ -43,15 +43,21 @@
       text-transform: uppercase;
       font-weight: 700;
       font-size: 13px; }
-  @media (max-width: 1441px) {
+  @media (max-width: 2000px) {
     .jumbotron-carousel {
-      padding-bottom: 11rem; } }
+      padding-bottom: 20rem; } }
+  @media (max-width: 1600px) {
+    .jumbotron-carousel {
+      padding-bottom: 16rem; } }
   @media (max-width: 992px) {
     .jumbotron-carousel {
       padding-bottom: 4rem; } }
   @media (max-width: 769px) {
     .jumbotron-carousel {
-      padding-bottom: 0rem; }
+      padding-bottom: 0rem;
+      background-attachment: scroll;
+      background-position: 25% center;
+      background-image: url("../../assets/images/jumbotron/mobile-1.jpg"); }
       .jumbotron-carousel .jumbotron .text-right h1 {
         font-size: 30px;
         margin-top: 4rem; }
@@ -60,17 +66,13 @@
       .jumbotron-carousel .offset-3 .carousel-caption .nav {
         flex-direction: column; } }
   @media (max-width: 414px) {
-    .jumbotron-carousel {
-      background-position: 25% center;
-      background-attachment: scroll;
-      background-image: url("../../assets/images/jumbotron/mobile-1.jpg"); }
-      .jumbotron-carousel .jumbotron {
-        padding-bottom: 0.25rem !important; }
-      .jumbotron-carousel .jumbotron .text-right h1 {
-        font-size: 25px; }
-      .jumbotron-carousel .text-right p {
-        margin-bottom: 2rem;
-        font-size: 10px; } }
+    .jumbotron-carousel .jumbotron {
+      padding-bottom: 0.25rem !important; }
+    .jumbotron-carousel .jumbotron .text-right h1 {
+      font-size: 25px; }
+    .jumbotron-carousel .text-right p {
+      margin-bottom: 2rem;
+      font-size: 10px; } }
   @media (max-width: 376px) {
     .jumbotron-carousel .container {
       padding-right: 0px;

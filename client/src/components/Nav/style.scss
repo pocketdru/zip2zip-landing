@@ -44,4 +44,9 @@
             }
         }
     }
+    @media (max-width: 340px) {
+        .navbar-brand {
+            right: 32%;
+        }
+    }
 }

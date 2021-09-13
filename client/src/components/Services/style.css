@@ -1,5 +1,7 @@
 .services {
   background-color: #f4f4f4; }
+  .services .card-deck {
+    margin: 1rem; }
   .services .card {
     transition: top ease 0.5s;
     border: 0px;

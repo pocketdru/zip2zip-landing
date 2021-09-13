@@ -2,6 +2,9 @@
 
 .services {
     background-color: #f4f4f4;
+    .card-deck {
+        margin: 1rem;
+    }
     .card {
         transition: top ease 0.5s;
         border: 0px;

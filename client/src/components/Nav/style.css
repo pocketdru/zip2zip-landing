@@ -34,5 +34,8 @@
         font-size: 14px; }
         .nav-background .navbar-brand a.d-block span.transportation {
           font-size: 50%; } }
+  @media (max-width: 340px) {
+    .nav-background .navbar-brand {
+      right: 32%; } }
 
 /*# sourceMappingURL=style.css.map */
