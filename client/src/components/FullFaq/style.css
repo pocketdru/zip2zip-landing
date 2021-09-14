@@ -9,12 +9,14 @@
   text-transform: uppercase;
   font-weight: 700;
   color: #000000; }
-.fullFaq .nav-item, .fullFaq .nav-item .nav-link {
+.fullFaq .nav-item, .fullFaq .flex-column .nav-item .nav-link {
   font-family: Montserrat;
   color: #f9f8f4;
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
+  font-weight: 700; }
+.fullFaq .nav-item {
   font-weight: 500; }
 .fullFaq .nav-item .active {
   border-left: 5px solid #599F3D;

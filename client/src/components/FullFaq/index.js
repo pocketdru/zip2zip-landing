@@ -29,10 +29,10 @@ class FullFaq extends Component {
                         <Nav.Link eventKey="booking">Booking</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                        <Nav.Link eventKey="pickUp" href="#left-tabs-tab-pickUp">Pick Up / Delivery</Nav.Link>
+                        <Nav.Link eventKey="pickUp">Pick Up / Delivery</Nav.Link>
                         </Nav.Item>                       
                         <Nav.Item>
-                        <Nav.Link eventKey="vehicle" href="#left-tabs-tab-vehicle">Vehicle</Nav.Link>
+                        <Nav.Link eventKey="vehicle">Vehicle</Nav.Link>
                         </Nav.Item>                        
                         <Nav.Item>
                         <Nav.Link eventKey="service">Service</Nav.Link>

@@ -1,7 +1,14 @@
 .services {
   background-color: #f4f4f4; }
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
   .services .card-deck {
     margin: 1rem; }
+  .services .card-body {
+    padding-bottom: 0rem; }
   .services .card {
     transition: top ease 0.5s;
     border: 0px;
@@ -32,11 +39,17 @@
     color: #f9f8f4;
     font-size: 13px;
     color: #000; }
+  .services .card-footer {
+    border: none;
+    background: inherit;
+    padding: 0px; }
   .services .dollars {
+    margin-bottom: 0px;
     display: inline;
     color: #599F3D; }
   .services .tire {
-    width: 35px;
+    animation: spin 2s linear infinite;
+    width: 30px;
     height: auto; }
   @media (max-width: 640px) {
     .services .card-body {

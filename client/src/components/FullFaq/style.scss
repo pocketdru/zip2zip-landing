@@ -12,9 +12,12 @@
         @include Montserrat-title();
         color: #000000;
     }
-    .nav-item, .nav-item .nav-link  {
+    .nav-item, .flex-column .nav-item .nav-link  {
         @include Montserrat-title();
         color: #000000;
+        font-weight: 700;
+    }
+    .nav-item {
         font-weight: 500;
     }
 
