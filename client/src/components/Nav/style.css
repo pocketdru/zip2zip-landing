@@ -7,15 +7,20 @@
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
+  .nav-background img {
+    width: 110px;
+    height: 110px; }
   .nav-background .navbar-brand {
-    background-color: rgba(71, 149, 40, 0.7);
+    background-color: rgba(71, 149, 40, 0.9);
     z-index: 15; }
   .nav-background .navbar-brand a {
     font-family: Montserrat;
     color: #f9f8f4;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 24px; }
+    font-size: 20px;
+    text-shadow: 1px 1px 3px #514646;
+    text-align: center; }
     .nav-background .navbar-brand a span.transportation {
       font-size: 50%; }
   @media (max-width: 414px) {

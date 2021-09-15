@@ -74,7 +74,7 @@
       #contact .card-deck .card-body {
         display: flex;
         flex-direction: row;
-        justify-content: end; }
+        justify-content: flex-end; }
       #contact .card-deck .list-group {
         width: 75%; }
       #contact .card-deck .card {

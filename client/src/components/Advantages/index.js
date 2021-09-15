@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 
 function Advantages () {
     useEffect(() => {
-        Aos.init({duration: 1000});
+        Aos.init({duration: 900});
     }, []);
         return (
         <section className="advantages pt-5 pb-5 ">

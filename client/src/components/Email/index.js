@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
 import emailjs from 'emailjs-com';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 import "./style.css";
 
 export default function QuoteEmail() {
@@ -15,6 +17,10 @@ export default function QuoteEmail() {
       });
       e.target.reset();
   }
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 //   var yearOptions = [];
 // for (var i = 2022; i > 1899; i--) {
 //     yearOptions.push((i));
@@ -68,11 +74,24 @@ export default function QuoteEmail() {
             <label>Year, make, model of the car, and note all the modifications if any.</label>
             <textarea name="message" required/>
           </div>
-          <input type="submit" value="SEND MESSAGE" className="btn d-block mx-auto pl-4 pr-4 pt-3 pb-3"/>
+          <input type="submit" value="SEND MESSAGE" className="btn d-block mx-auto pl-4 pr-4 pt-3 pb-3" variant="primary" onClick={handleShow}/>
         </form>
         </div>
         </div>
       </div>
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Your quote is on the way!</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Thank you for request. You will get your personalized shipping quote within one hour. If requested after business hours we will get back to you the following business day. </Modal.Body>
+        <Modal.Footer>
+          <Button variant="primary" onClick={handleClose}>
+            Got it!
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
     </section>
   );
 }
