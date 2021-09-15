@@ -48,9 +48,10 @@
     display: inline;
     color: #599F3D; }
   .services .tire {
+    align-items: baseline;
     animation: spin 2s linear infinite;
     width: 30px;
-    height: auto; }
+    height: 30px; }
   @media (max-width: 640px) {
     .services .card-body {
       padding: 0.5rem; } }

@@ -46,9 +46,10 @@
         color: #599F3D;
     }
     .tire {
+        align-items: baseline;
         animation: spin 2s linear infinite;
         width: 30px;
-        height: auto;
+        height: 30px;
     }
     @media (max-width: 640px) {
         .card-body {

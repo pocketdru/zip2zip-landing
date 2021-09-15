@@ -65,7 +65,7 @@ export default function QuoteEmail() {
           </div>
           </div> */}
           <div className="form-group">
-            <label>Year, model, make of the unit you are shipping. Please note all the modifications if you have some.</label>
+            <label>Year, make, model of the car, and note all the modifications if any.</label>
             <textarea name="message" required/>
           </div>
           <input type="submit" value="SEND MESSAGE" className="btn d-block mx-auto pl-4 pr-4 pt-3 pb-3"/>
