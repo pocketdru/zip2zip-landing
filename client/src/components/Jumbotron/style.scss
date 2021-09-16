@@ -19,6 +19,9 @@
             font-size: 13px;
         }
         @include btn();
+        .nav-link a:hover, .btn a:hover {
+            text-shadow: 1px 1px 3px #514646;
+        }
     }
     .text-right {
         text-transform: uppercase;
