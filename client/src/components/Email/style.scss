@@ -1,5 +1,4 @@
 @import "../../main.scss";
-
 #email {
     @media (max-width: 769px) {
         .container .card-title {
@@ -52,4 +51,13 @@
 }
 .modal-content {
     background: #f4f4f4;
+    .modal-title {
+        @include Montserrat-title();
+        color: #969696;;
+    }
+    .modal-body {
+        @include Open-Sans-par();
+        color: #969696;
+    }
+    @include btn();
 }

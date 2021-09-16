@@ -74,3 +74,33 @@
 #email iframe {
   height: 700px;
 }
+
+.modal-content {
+  background: #f4f4f4;
+}
+.modal-content .modal-title {
+  font-family: Montserrat;
+  color: #f9f8f4;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #969696;
+}
+.modal-content .modal-body {
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: #f9f8f4;
+  font-size: 13px;
+  color: #969696;
+}
+.modal-content .btn {
+  background-color: #599F3D;
+  font-family: Montserrat;
+  color: #f9f8f4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+}
+.modal-content .btn:hover {
+  background-color: #f9f8f4;
+  color: #599F3D;
+}

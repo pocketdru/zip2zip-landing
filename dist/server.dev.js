@@ -39,6 +39,6 @@ app.use(routes);
 app.get("*", function (req, res) {
   res.sendFile(path.join(__dirname, "../client/public/index.html"));
 });
-app.listen(process.env.PORT || 3006, function () {
+app.listen(process.env.PORT || 3003, function () {
   console.log("\uD83C\uDF0E ==> API server now on port ".concat(PORT, "!"));
 });

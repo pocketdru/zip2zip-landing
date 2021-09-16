@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import Hours from '../../assets/images/contact/clock-timing.png'; 
 import Call from '../../assets/images/contact/customer-service.png';
 import Email from '../../assets/images/contact/email-address.png'; 
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Contact () {
+    useEffect(() => {
+        Aos.init({duration: 700});
+    }, []);
     return (
     <div className="card-deck">
         <div className="card">
@@ -35,7 +39,7 @@ function Contact () {
             </div>                    
         </div>
         <div className="card d-flex align-self-center">
-            <a href="/#email" className="btn">Request a quote</a>
+            <a href="/#email" className="btn" data-aos="fade-left">Request a quote</a>
         </div>
     </div>
     )

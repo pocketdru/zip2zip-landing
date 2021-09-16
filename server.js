@@ -38,6 +38,6 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/public/index.html"));
 });
 
-app.listen(process.env.PORT || 3006, () => {
+app.listen(process.env.PORT || 3003, () => {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
 });

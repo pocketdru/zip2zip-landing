@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import emailjs from 'emailjs-com';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
@@ -15,6 +15,7 @@ export default function QuoteEmail() {
       }, (error) => {
           console.log(error.text);
       });
+      handleShow();
       e.target.reset();
   }
   const [show, setShow] = useState(false);
@@ -36,7 +37,7 @@ export default function QuoteEmail() {
   
 // ]
   return (
-    <section id="email">
+    <section id="email" animation="false">
       <div className="container pt-4 pb-5">
         <div className="row">
           <div className="col-md-12">
@@ -74,13 +75,13 @@ export default function QuoteEmail() {
             <label>Year, make, model of the car, and note all the modifications if any.</label>
             <textarea name="message" required/>
           </div>
-          <input type="submit" value="SEND MESSAGE" className="btn d-block mx-auto pl-4 pr-4 pt-3 pb-3" variant="primary" onClick={handleShow}/>
+          <input type="submit" value="SEND MESSAGE" className="btn d-block mx-auto pl-4 pr-4 pt-3 pb-3" variant="primary" />
         </form>
         </div>
         </div>
       </div>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} animation="false">
         <Modal.Header closeButton>
           <Modal.Title>Your quote is on the way!</Modal.Title>
         </Modal.Header>

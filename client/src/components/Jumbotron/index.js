@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Jumbotron() {
+  useEffect(() => {
+    Aos.init({duration: 2000});
+}, []);
   return (
     <section className="jumbotron-carousel">
       <div className="container">
@@ -16,7 +20,7 @@ function Jumbotron() {
                     <li className="nav-link"><a className="btn p-3" href="#email">REQUEST A QUOTE </a></li>
                 </nav>
             </div>
-            <div className="mt-5 mb-5 text-right">
+            <div className="mt-5 mb-5 text-right" data-aos="fade-left">
                 <h1 className="mr-5">
                   Right choice – right move
                 </h1>
