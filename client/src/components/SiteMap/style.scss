@@ -15,14 +15,35 @@
         .card-deck {
             display: block;
         }
+        @include btn();
+        .btn {
+            display: block;
+            width: fit-content;
+            margin: 0.25rem auto;
+        }
+    }
+    @media (max-width: 991px) {
+        #contact {
+            .card {
+                margin: 0rem;
+            }
+        }
     }
     @media (max-width: 767px) {
         #contact {
-            padding-bottom: 0rem;
+            padding: 0rem;
              .card-deck {
             display: flex;
+            .card-body {
+                padding: 1.25rem 0rem 0rem 0rem;
+            }
              }
         }    
+    }
+    @media (max-width: 640px) {
+        #contact {
+            padding: 0rem;
+        }
     }
 }
 

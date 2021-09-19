@@ -12,7 +12,12 @@ function SiteMap () {
                         <FullFaq />
                     </div>
                     <div className="col-md-3" id="contact">
-                        <Contact />
+                        <div className="col-md-12">
+                            <Contact />
+                        </div>
+                        <div className="col-md-12">
+                            <a className="btn" href="/#email">REQUEST A QUOTE </a>
+                        </div>
                     </div>
                 </div>
                 <div className="row">
