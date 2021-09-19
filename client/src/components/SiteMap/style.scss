@@ -16,10 +16,12 @@
             display: block;
         }
     }
-    @media (max-width: 640px) {
-        #contact .card-deck {
+    @media (max-width: 767px) {
+        #contact {
+            padding-bottom: 0rem;
+             .card-deck {
             display: flex;
-            flex-wrap: wrap;
+             }
         }    
     }
 }
