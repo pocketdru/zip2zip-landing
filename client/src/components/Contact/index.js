@@ -38,9 +38,6 @@ function Contact () {
                 </ul>
             </div>                    
         </div>
-        <div className="card d-flex align-self-center">
-            <a href="/#email" className="btn" data-aos="fade-left">Request a quote</a>
-        </div>
     </div>
     )
 }

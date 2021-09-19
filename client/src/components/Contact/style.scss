@@ -82,18 +82,13 @@
     @media (max-width: 575px) {
         .card-deck {
             display: flex;
-            flex-wrap: wrap;
         .card-body {
             display: flex;
             flex-direction: row;
-            justify-content: flex-end;
-        }   
-        .list-group {
-            width: 75%;
-        }            
+        }           
         .card {
             flex: auto;
-            width: 50%;
+            width: 100%;
             .img-fluid {
                 width: 20px;
                 height: 32px;
@@ -109,9 +104,31 @@
                 padding-top: 0.5rem;
             }
             .card .card-body {
+                display: block;
                 padding: 0rem 0rem 0rem 0rem;
         }
+        .card-deck .card .img-fluid {
+            width: 17px;
+            height: 29px;
         }
+    }
+    @media (max-width: 320px) {
+        .card-deck {
+            .card .img-fluid {
+                width: 13px;
+                height: 25px;
+            }
+            .card-body .list-group {
+                #header {
+                font-size: 8px;
+                }
+                .list-group-item {
+                font-size: 7px;
+                padding: .25rem 0rem .25rem 0.5rem;
+                } 
+            } 
+    }    
+    }
 }
 .faqPage .siteMap {
 //     @media (max-width: 767px) {

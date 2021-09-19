@@ -11,9 +11,11 @@ function Nav() {
     <div className="container">
       <div className="row">
         <div className="col-12 col-sm-12 col-md-12 col-lg-12">
-          <div className="navbar-brand position-absolute p-2" href="/">
+          <div className="navbar-brand position-absolute px-2 py-1" href="/">
               <img src={logo} className="d-block align-top m-auto" alt="" loading="lazy"/>
-              <a className="flex-sm-fill d-block" href="/">Top One<br/><span className="transportation">Transportation</span></a>
+              <a className="flex-sm-fill d-block" href="/">Top One<br/><span className="transportation">Transportation</span>
+              <br/>
+              <span className="transportation">since 2008</span></a>
           </div>
         </div>
       {/* <div className="col-md-9 col-lg-9">

@@ -19,8 +19,11 @@
             font-size: 13px;
         }
         @include btn();
-        .nav-link a:hover, .btn a:hover {
+        .nav-link a:hover {
             text-shadow: 1px 1px 3px #514646;
+        }
+        .nav-link a.btn:hover {
+            text-shadow: none;
         }
     }
     .text-right {
