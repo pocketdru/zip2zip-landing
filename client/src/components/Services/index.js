@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import Tire from '../../assets/images/service/car-tire-wheel.png'; 
-
 function Services () {
     return (
         <section className="services">
@@ -87,5 +86,4 @@ function Services () {
         </section>
     )
 }
-
 export default Services;

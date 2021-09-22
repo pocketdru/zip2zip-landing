@@ -1,8 +1,6 @@
 import React from "react";
 import "./style.css";
 import GoogleIcon from '../../assets/images/testimonials/4.png'; 
-
-
 function Testimonials () { 
     return (
         <section className="testimonials pt-5" id="testimonials">
@@ -45,5 +43,4 @@ function Testimonials () {
         </section>
     )
 }
-
 export default Testimonials;

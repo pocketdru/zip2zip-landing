@@ -5,7 +5,6 @@ import Truck from '../../assets/images/steps/flatbed-truck.png';
 import Delivery from '../../assets/images/steps/garage.png';
 import Aos from "aos";
 import "aos/dist/aos.css" 
-
 function Steps () {
     useEffect(() => {
         Aos.init({duration: 2000});

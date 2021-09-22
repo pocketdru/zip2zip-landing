@@ -5,7 +5,6 @@ import Truck2 from '../../assets/images/faq/2.jpeg';
 import Truck3 from '../../assets/images/faq/3.jpeg'; 
 import Truck4 from '../../assets/images/faq/4.jpeg'; 
 import Truck5 from '../../assets/images/faq/5.jpeg'; 
-
 function Faq () { 
     return(
         <section className="pt-5 pb-5" id="faq">
@@ -61,5 +60,4 @@ function Faq () {
         </section>
     )
 }
-
 export default Faq;

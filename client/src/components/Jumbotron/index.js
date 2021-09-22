@@ -31,5 +31,4 @@ function Jumbotron() {
     </section>
   );
 }
-
 export default Jumbotron;

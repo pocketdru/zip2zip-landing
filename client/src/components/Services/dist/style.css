@@ -61,13 +61,22 @@
   color: #599F3D;
 }
 .services .tire {
+  padding: 1.25rem;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
   align-items: baseline;
   animation: spin 2s linear infinite;
-  width: 30px;
-  height: 30px;
+  width: 70px;
+  height: 70px;
 }
 @media (max-width: 640px) {
   .services .card-body {
+    padding: 0.5rem;
+  }
+  .services .tire {
+    width: 35px;
+    height: 35px;
     padding: 0.5rem;
   }
 }

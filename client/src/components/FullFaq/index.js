@@ -4,7 +4,6 @@ import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import BreadCrumbs from "../BreadCrumbs";
 import "./style.css";
-
 class FullFaq extends Component {
     render () {
     return (
@@ -329,7 +328,5 @@ class FullFaq extends Component {
         </section>
     )
     }
-
 }
-
 export default FullFaq;

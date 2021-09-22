@@ -1,10 +1,6 @@
 import React from "react";
 import "./style.css";
 import logo from "../../assets/images/nav/logo-3.png";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
-// import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-
 function Nav() {
   return (
     <section className="nav-background">
@@ -18,20 +14,9 @@ function Nav() {
               <span className="transportation">since 2008</span></a>
           </div>
         </div>
-      {/* <div className="col-md-9 col-lg-9">
-        <nav className="nav navbar d-flex justify-content-end">
-          <a className="nav-link text-sm-center mt-2 mb-3" target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/company/zip-2-zip">
-            <FontAwesomeIcon icon={faFacebookF} />
-          </a>
-          <a className="nav-link text-sm-center mt-2 mb-3" target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/company/zip-2-zip">
-            <FontAwesomeIcon icon={faLinkedinIn} />
-          </a>
-          </nav>
-      </div> */}
       </div>
     </div> 
     </section> 
   );
 }
-
 export default Nav;

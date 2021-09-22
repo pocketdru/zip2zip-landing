@@ -4,9 +4,7 @@ import './fonts.css';
 import './main.css';
 import Home from "./pages";
 import FaqPage from "./pages/FaqPage.js";
-
 class App extends Component {
-
   render () {
     return (
     <BrowserRouter>
@@ -23,5 +21,4 @@ class App extends Component {
    );
   }
 }
-
 export default App;

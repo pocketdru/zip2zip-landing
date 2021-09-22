@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-
 function BreadCrumbs() {
   return (
     <nav aria-label="breadcrumb">
@@ -11,5 +10,4 @@ function BreadCrumbs() {
     </nav>
   )
 }
-
 export default BreadCrumbs;
