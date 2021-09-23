@@ -23,7 +23,7 @@ export default function QuoteEmail() {
       <div className="container pt-4 pb-5">
         <div className="row">
           <div className="col-md-12">
-            <h5 className="card-title mt-5 mb-5">REQUEST A QUICK QUOTE</h5>
+            <h5 className="card-title mt-5 mb-5">REQUEST A QUICK TRANSPORTATION QUOTE</h5>
           </div>
           <div className="col-md-12">
         <form className="contact-form needs-validation pb-4" onSubmit={sendEmail}>

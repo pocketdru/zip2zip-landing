@@ -8,7 +8,7 @@ function Nav() {
       <div className="row">
         <div className="col-12 col-sm-12 col-md-12 col-lg-12">
           <div className="navbar-brand position-absolute px-2 py-1" href="/">
-              <img src={logo} className="d-block align-top m-auto" alt="" loading="lazy"/>
+              <img src={logo} className="d-block align-top m-auto" alt="Top One Transportation logo" loading="lazy"/>
               <a className="flex-sm-fill d-block" href="/">Top One<br/><span className="transportation">Transportation</span>
               <br/>
               <span className="transportation">since 2008</span></a>

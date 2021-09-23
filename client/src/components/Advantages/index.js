@@ -20,7 +20,7 @@ function Advantages () {
                 <div className="card">
                     <div className="row g-0">
                         <div className="col-md-3">
-                        <img src={Rating} className="img-fluid rounded-start" data-aos="flip-left" alt="rating"/>
+                        <img src={Rating} className="img-fluid rounded-start" data-aos="flip-left" alt="top rated auto shipping"/>
                         </div>
                         <div className="col-md-9">
                         <div className="card-body">

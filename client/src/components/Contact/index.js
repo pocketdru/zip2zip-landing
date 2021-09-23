@@ -13,7 +13,7 @@ function Contact () {
     <div className="card-deck">
         <div className="card">
             <div className="card-body">
-                <img src={Hours} className="img-fluid rounded-start" alt="..."/>
+                <img src={Hours} className="img-fluid rounded-start" alt="hours of operation"/>
                 <ul className="list-group">
                     <li className="list-group-item" id="header">Hours of operation</li>
                     <li className="list-group-item">Monday - Friday 08.00 - 4.00</li>
@@ -22,7 +22,7 @@ function Contact () {
         </div> 
         <div className="card">
             <div className="card-body">
-                <img src={Call} className="img-fluid rounded-start" alt="..."/>
+                <img src={Call} className="img-fluid rounded-start" alt="contact phone number"/>
                 <ul className="list-group">
                     <li className="list-group-item" id="header">Give us a call</li>
                     <li className="list-group-item">+1 (303) 353 8362</li>
@@ -31,7 +31,7 @@ function Contact () {
         </div>
         <div className="card">
             <div className="card-body">
-                <img src={Email} className="img-fluid rounded-start" alt="..."/>
+                <img src={Email} className="img-fluid rounded-start" alt="email"/>
                 <ul className="list-group">
                     <li className="list-group-item" id="header">EMAIL US</li>
                     <li className="list-group-item">toponedispatch@gmail.com</li>

@@ -33,7 +33,7 @@ function Steps () {
                                 </div>
                             </div>
                             <div className="col-4 col-md-4">
-                            <img src={Customer} className="img-fluid rounded-start" alt="step 1"/>
+                            <img src={Customer} className="img-fluid rounded-start" alt="car transport step 1"/>
                             </div>
                         </div>
                         </div>
@@ -42,7 +42,7 @@ function Steps () {
                     <div className="card mb-3" data-aos="fade-up">
                         <div className="row g-0">
                             <div className="col-4 col-md-4">
-                            <img src={Truck} className="img-fluid rounded-start" alt="step 2"/>
+                            <img src={Truck} className="img-fluid rounded-start" alt="car transport step 2"/>
                             </div>
                             <div className="col-8 col-md-8">
                             <div className="card-body">
@@ -69,12 +69,12 @@ function Steps () {
                                     <h5 className="card-title">Vehicle Delivery</h5>
                                     <p className="card-text">Upon arrival at the destination, your vehicle will be safely offloaded. A final inspection is completed and the driver hands over the keys.</p>
                                     <div className="details">
-                                        <p className="card-text fw-bold">Leave us a review :)</p>
+                                        <p className="card-text fw-bold"><a className="link" href="https://www.google.com/search?q=top+one+transportation&authuser=4&sxsrf=AOaemvL68JGh6_UYFvnA6kGIW3I8fytdPg%3A1632268151422&source=hp&ei=d29KYfCnF9TXgQak8qO4Dw&iflsig=ALs-wAMAAAAAYUp9h_B5shGzdUBSqX2eRq5Uuw8ZJmZi&oq=t&gs_lcp=Cgdnd3Mtd2l6EAEYADIECCMQJzIFCAAQkQIyBQgAEJECMg4ILhCABBCxAxDHARCjAjIICAAQgAQQsQMyEQguEIAEELEDEIMBEMcBENEDMgsILhCABBCxAxCDATIOCC4QgAQQsQMQxwEQowIyCAgAEIAEELEDMg4ILhCABBCxAxDHARCjAjoHCCMQ6gIQJ1CRHFiRHGCVKGgBcAB4AIABiwKIAYsCkgEDMi0xmAEAoAEBsAEC&sclient=gws-wiz#lrd=0x876c87f1cb3476cb:0x2887886f9cac3369,3">Leave us a review :)</a></p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-4 col-md-4">
-                            <img src={Delivery} className="img-fluid rounded-start" alt="step 3"/>
+                            <img src={Delivery} className="img-fluid rounded-start" alt="car transport step 3"/>
                             </div>
                         </div>
                         </div>
