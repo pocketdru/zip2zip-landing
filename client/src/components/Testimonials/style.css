@@ -7,7 +7,7 @@
   .testimonials .card-deck .card-body .card-text {
     font-size: 9px; }
   .testimonials .card-deck .font-weight-bold {
-    font-size: 9px; } }
+    font-size: 11px; } }
 .testimonials {
   background-color: #f4f4f4; }
   .testimonials .card {
@@ -28,7 +28,7 @@
     text-transform: uppercase;
     font-weight: 700;
     color: #000000;
-    font-size: 12px; }
+    font-size: 14px; }
   .testimonials .slider-wrapper {
     display: flex;
     align-items: center;
@@ -52,19 +52,25 @@
     animation: slide 10s linear infinite; }
 @keyframes slide {
   0% {
-    margin-top: -600px; }
-  15% {
     margin-top: -500px; }
-  30% {
-    margin-top: -500px; }
-  45% {
+  5% {
     margin-top: -400px; }
-  65% {
+  20% {
+    margin-top: -400px; }
+  25% {
     margin-top: -300px; }
-  80% {
+  40% {
+    margin-top: -300px; }
+  45% {
     margin-top: -200px; }
-  90% {
+  60% {
+    margin-top: -200px; }
+  65% {
     margin-top: -100px; }
+  80% {
+    margin-top: -100px; }
+  85% {
+    margin-top: 0px; }
   100% {
     margin-top: 0px; } }
 

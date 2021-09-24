@@ -41,13 +41,6 @@ function Testimonials () {
                                     </div>
                                     <p className="card-text font-weight-bold">Tempus Logix - Tujunga, CA</p>
                                 </div>
-                                <div className="card slider-text-3">
-                                    <div className="card-body">
-                                        <p className="card-text"><span className="font-weight-bold">Positive:</span><span className="font-italic">Professionalism, Value</span><br/>
-                                        Picked up and delivered as promised, in perfect condition. Many thanks</p>
-                                    </div>
-                                    <p className="card-text font-weight-bold">Lia T - Aurora, CO</p>
-                                </div>                         
                             </div>
                         </div>
                     </div>

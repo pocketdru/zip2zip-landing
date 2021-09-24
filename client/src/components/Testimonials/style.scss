@@ -2,6 +2,7 @@
 @media (max-width: 992px) {
     .testimonials .card-deck {
         .card-body .card-text {
+
             font-size: 11px;
         }
     }
@@ -15,10 +16,11 @@
             font-size: 9px;
         }
         .font-weight-bold {
-            font-size: 9px;
+            font-size: 11px;
         }
     }
 }
+
 .testimonials {
     background-color: #f4f4f4;
     .card {
@@ -36,7 +38,7 @@
         .font-weight-bold {
             @include Montserrat-title();
             color: #000000;
-            font-size: 12px;
+            font-size: 14px;
         }
     .slider-wrapper {
         display: flex;
@@ -66,13 +68,16 @@
         animation: slide 10s linear infinite;
     }
     @keyframes slide {
-        0% {margin-top: -600px;}
-        15% {margin-top: -500px;}
-        30% {margin-top: -500px;}
-        45% {margin-top: -400px;}
-        65% {margin-top: -300px;}
-        80% {margin-top: -200px;}
-        90% {margin-top: -100px;}
+        0% {margin-top: -500px;}
+        5% {margin-top: -400px;}
+        20% {margin-top: -400px;}
+        25% {margin-top: -300px;}
+        40% {margin-top: -300px;}
+        45% {margin-top: -200px;}
+        60% {margin-top: -200px;}
+        65% {margin-top: -100px;}
+        80% {margin-top: -100px;}
+        85% {margin-top: 0px;}
         100% {margin-top: 0px;}
     }
 }
