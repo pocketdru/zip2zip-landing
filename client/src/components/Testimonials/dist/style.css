@@ -11,7 +11,7 @@
     font-size: 9px;
   }
   .testimonials .card-deck .font-weight-bold {
-    font-size: 9px;
+    font-size: 11px;
   }
 }
 .testimonials {
@@ -38,7 +38,7 @@
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
-  font-size: 12px;
+  font-size: 14px;
 }
 .testimonials .slider-wrapper {
   display: flex;
@@ -55,6 +55,7 @@
   overflow: hidden;
 }
 .testimonials .slider .card {
+  overflow: hidden;
   color: #fff;
   height: 100px;
   padding: 15px;
@@ -69,21 +70,30 @@
 }
 @keyframes slide {
   0% {
+    margin-top: -400px;
+  }
+  20% {
+    margin-top: -400px;
+  }
+  25% {
     margin-top: -300px;
   }
-  5% {
+  40% {
+    margin-top: -300px;
+  }
+  45% {
     margin-top: -200px;
   }
-  33% {
+  60% {
     margin-top: -200px;
   }
-  38% {
+  65% {
     margin-top: -100px;
   }
-  66% {
+  80% {
     margin-top: -100px;
   }
-  71% {
+  85% {
     margin-top: 0px;
   }
   100% {

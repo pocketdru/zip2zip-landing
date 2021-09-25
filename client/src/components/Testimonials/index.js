@@ -16,27 +16,27 @@ function Testimonials () {
                                     </div>
                                     <p className="card-text font-weight-bold">Mark H - Denver, CO</p>
                                 </div>
-                                <div className="card slider-text-2">
+                                <div className="card">
                                     <div className="card-body">
                                         <p className="card-text">Great and friendly company everything was very  professionally taken care off...</p>
                                     </div>
                                     <p className="card-text font-weight-bold">Dima P - Jacksonville, FL</p>
                                 </div>
-                                <div className="card slider-text-3">
+                                <div className="card">
                                     <div className="card-body">
                                         <p className="card-text">Very reliable company. Alex the driver is punctual and professional. A+ for the company and services they provided.I will definitely have business with Top One again!</p>
                                     </div>
                                     <p className="card-text font-weight-bold">Maxim G - Burbank, CA</p>
                                 </div>
-                                <div className="card slider-text-3">
+                                <div className="card">
                                     <div className="card-body">
-                                        <p className="card-text"><span className="font-weight-bold">Positive:</span><span className="font-italic">Professionalism, Responsiveness, Value</span><br/>Driver was very laid back and responsive. Delivered on time and to the door. Highly recommended!</p>
+                                        <p className="card-text"><span className="font-weight-bold">Positive: </span><span className="font-italic">Professionalism, Responsiveness, Value</span><br/>Driver was very laid back and responsive. Delivered on time and to the door. Highly recommended!</p>
                                     </div>
                                     <p className="card-text font-weight-bold">Russ K - San Francisco, CA</p>
                                 </div>
-                                <div className="card slider-text-3">
+                                <div className="card">
                                     <div className="card-body">
-                                        <p className="card-text"><span className="font-weight-bold">Positive:</span><span className="font-italic">Professionalism, Punctuality, Quality</span><br/>
+                                        <p className="card-text"><span className="font-weight-bold">Positive: </span><span className="font-italic">Professionalism, Punctuality, Quality</span><br/>
                                         Great costumer service! Keep up the good work!</p>
                                     </div>
                                     <p className="card-text font-weight-bold">Tempus Logix - Tujunga, CA</p>
